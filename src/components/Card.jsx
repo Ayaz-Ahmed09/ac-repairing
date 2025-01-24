@@ -8,7 +8,7 @@ const Cards = ({ title, description, viewDetailLink, image, callNowLink }) => {
   };
 
   return (
-    <div className="relative flex flex-col lg:flex-row p-6 bg-black text-white rounded-lg shadow-lg overflow-hidden max-w-full mx-auto h-full group">
+    <div className="relative font-quicksand flex flex-col lg:flex-row p-6 bg-black text-white rounded-lg shadow-lg overflow-hidden max-w-full mx-auto h-full group">
       {/* Image Section */}
       <img
         src={image}
@@ -19,7 +19,7 @@ const Cards = ({ title, description, viewDetailLink, image, callNowLink }) => {
 
       {/* Content Section */}
       <div className="flex flex-col justify-between w-full lg:w-2/3 h-full z-10 relative">
-        <h2 className="text-xl font-bold font-serif mb-2">{title}</h2>
+        <h2 className="text-xl font-bold font-quicksand mb-2">{title}</h2>
         <p className="text-gray-300 mb-4 flex-grow">{description}</p>
 
         <div className="flex flex-col sm:flex-row justify-between items-center space-y-3 sm:space-y-0">
@@ -33,7 +33,7 @@ const Cards = ({ title, description, viewDetailLink, image, callNowLink }) => {
           {/* Call Now Button */}
           <button
             onClick={handleCallNow}
-            className="bg-red-600 text-white px-4 font-serif py-2 rounded hover:bg-red-600 w-full sm:w-auto text-center sm:text-left z-20"
+            className="bg-red-600 text-white px-4 font-quicksand py-2 rounded hover:bg-red-600 w-full sm:w-auto text-center sm:text-left z-20"
           >
             Call Now
           </button>

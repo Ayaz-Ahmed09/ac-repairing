@@ -18,7 +18,7 @@ const AboutSection = () => {
   return (
     <section
       ref={inViewRef}
-      className="about-section  py-20 px-4 md:px-10 flex items-center justify-center lg:bg-[url(/about.jpeg)] bg-center bg-cover flex-col md:flex-row"
+      className="about-section bg-black  py-20 px-4 md:px-10 flex items-center justify-center lg:bg-[url(/about.jpeg)] bg-center bg-cover flex-col md:flex-row"
     >
       {/* Left Side (Text) */}
       <div
@@ -26,8 +26,10 @@ const AboutSection = () => {
           inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-20"
         }`}
       >
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6">About Us</h2>
-        <p className="text-lg sm:text-xl mb-4">
+        <h2 className="text-3xl text-white sm:text-4xl font-bold mb-6">
+          About Us
+        </h2>
+        <p className="text-lg text-white sm:text-xl mb-4">
           We are a creative team that loves bringing ideas to life through
           design, development, and digital solutions. Our mission is to help
           brands grow, evolve, and succeed by creating impactful digital

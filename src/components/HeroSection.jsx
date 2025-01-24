@@ -18,17 +18,17 @@ const HeroSection = () => {
       </div>
 
       {/* Right Side - Text and Button */}
-      <div className="w-full sm:w-1/2 h-full lg:ml-12 flex flex-col items-center sm:items-start justify-center text-center sm:text-left px-4 sm:px-8 mt-4 sm:mt-0">
-        <p className="text-3xl sm:text-4xl md:text-4xl font-bold mb-4">
+      <div className="w-full sm:w-1/2 h-full flex flex-col items-center sm:items-start justify-center text-center sm:text-left px-4 sm:px-8 mt-4 sm:mt-0">
+        <p className="text-3xl sm:text-4xl lg:ml-[200px] md:text-4xl font-bold mb-4">
           Welcome to Our Website!
         </p>
-        <p className="text-base sm:text-lg md:text-2xl mb-8">
+        <p className="text-base sm:text-lg lg:ml-[300px] md:text-2xl mb-8">
           Your journey starts here
         </p>
         {/* Optional Button */}
         <Link
           href="#services"
-          className="bg-red-600 text-white py-2 px-6 rounded-full text-lg font-medium hover:bg-gray-200 transition duration-300"
+          className="bg-red-600 text-white lg:ml-[350px] py-2 px-6 rounded-full text-lg font-medium hover:bg-gray-200 transition duration-300"
         >
           Explore Services
         </Link>
