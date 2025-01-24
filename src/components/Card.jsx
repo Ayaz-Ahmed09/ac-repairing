@@ -1,0 +1,49 @@
+"use client";
+import Link from "next/link";
+
+// eslint-disable-next-line react/prop-types
+const Cards = ({ title, description, viewDetailLink, image, callNowLink }) => {
+  const handleCallNow = () => {
+    window.location.href = `tel:${callNowLink}`;
+  };
+
+  return (
+    <div className="relative flex flex-col lg:flex-row p-6 bg-black text-white rounded-lg shadow-lg overflow-hidden max-w-full mx-auto h-full group">
+      {/* Image Section */}
+      <img
+        src={image}
+        alt={title}
+        loading="eager"
+        className="w-full h-auto object-cover rounded-lg mb-4 lg:mb-0 lg:w-1/3 lg:mr-6"
+      />
+
+      {/* Content Section */}
+      <div className="flex flex-col justify-between w-full lg:w-2/3 h-full z-10 relative">
+        <h2 className="text-xl font-bold font-serif mb-2">{title}</h2>
+        <p className="text-gray-300 mb-4 flex-grow">{description}</p>
+
+        <div className="flex flex-col sm:flex-row justify-between items-center space-y-3 sm:space-y-0">
+          {/* View Details Link */}
+          <Link
+            href={viewDetailLink}
+            className="text-red-600 hover:underline w-full sm:w-auto text-center sm:text-left"
+          >
+            View Details
+          </Link>
+          {/* Call Now Button */}
+          <button
+            onClick={handleCallNow}
+            className="bg-red-600 text-white px-4 font-serif py-2 rounded hover:bg-red-600 w-full sm:w-auto text-center sm:text-left z-20"
+          >
+            Call Now
+          </button>
+        </div>
+      </div>
+
+      {/* Hover Overlay Effect */}
+      <div className="absolute inset-0 bg-gradient-to-t from-red-500 to-transparent opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+    </div>
+  );
+};
+
+export default Cards;
