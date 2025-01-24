@@ -18,15 +18,21 @@ const AboutSection = () => {
   return (
     <section
       ref={inViewRef}
-      className="about-section bg-black  py-20 px-4 md:px-10 flex items-center justify-center lg:bg-[url(/about.jpeg)] bg-center bg-cover flex-col md:flex-row"
+      className="about-section py-20 px-4 md:px-10 flex items-center justify-center min-h-screen relative"
+      style={{
+        backgroundImage: "url('/about.jpeg')",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "100% 100% ",
+        backgroundPosition: "cover",
+      }}
     >
       {/* Left Side (Text) */}
       <div
-        className={`w-full lg:pb-80 md:w-1/2 px-4 text-center md:text-left transform transition-all duration-1000 ease-in-out  ${
+        className={`w-full  md:w-1/2 px-4 text-center md:text-left transform transition-all duration-1000 ease-in-out  ${
           inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-20"
         }`}
       >
-        <h2 className="text-3xl text-white sm:text-4xl font-bold mb-6">
+        <h2 className="text-3xl text-white sm:text-4xl text-center items-center  font-bold mb-6">
           About Us
         </h2>
         <p className="text-lg text-white sm:text-xl mb-4">
@@ -35,14 +41,14 @@ const AboutSection = () => {
           brands grow, evolve, and succeed by creating impactful digital
           experiences.
         </p>
-        <p className="text-lg sm:text-xl mb-4">
+        <p className="text-lg sm:text-xl text-white mb-4">
           Our passionate team thrives on collaboration and innovation. With
           experience in design, marketing, and development, we create tailored
           solutions that drive measurable results.
         </p>
 
         {/* Icons Section */}
-        <div className="flex justify-around mt-8 text-center">
+        <div className="flex justify-around text-white mt-8 text-center">
           {/* Licensed Company Icon */}
           <div className="flex flex-col items-center">
             <FontAwesomeIcon
@@ -77,12 +83,13 @@ const AboutSection = () => {
         className={`w-full md:w-1/2 mt-8 md:mt-0 transform transition-all duration-1000 ease-in-out ${
           inView ? "opacity-100 animate-bounce-in" : "opacity-0 translate-x-20"
         }`}
+        style={{ maxWidth: "500px" }} // Ensure container size is also set to max-width of 500px
       >
         <Image
-          src="/aboutus.png"
+          src="/home-about-us (1).jpg"
           alt="About Us Image"
-          width={500}
-          height={500}
+          width={500} // The width is now controlled by Image component
+          height={500} // The height is also controlled
           className="w-full h-full object-cover rounded-lg shadow-lg"
         />
       </div>
