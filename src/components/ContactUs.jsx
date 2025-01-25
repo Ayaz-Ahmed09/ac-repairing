@@ -3,16 +3,16 @@ import { faPhoneAlt, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 const ContactUs = () => {
   return (
-    <section className="w-full py-16 bg-black text-white px-4 sm:px-8">
+    <section className="w-full py-16 bg-black text-white px-4 sm:px-8 bg-[url('/contact-us.jpeg')] bg-center bg-cover">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-red-600">
           Contact Us
         </h2>
 
         {/* Contact Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="text-center items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {/* Contact Number 1 */}
-          <div className="bg-red-600 p-6 rounded-lg shadow-lg flex items-center space-x-4">
+          <div className="bg-red-600 p-6 rounded-lg shadow-lg flex items-center justify-center  text-center space-x-4">
             <FontAwesomeIcon
               icon={faPhoneAlt}
               className="text-white text-3xl"
@@ -24,7 +24,7 @@ const ContactUs = () => {
           </div>
 
           {/* Contact Number 2 */}
-          <div className="bg-red-600 p-6 rounded-lg shadow-lg flex items-center space-x-4">
+          <div className="bg-red-600 p-6 rounded-lg shadow-lg flex items-center text-center justify-center space-x-4">
             <FontAwesomeIcon
               icon={faPhoneAlt}
               className="text-white text-3xl"
@@ -36,7 +36,7 @@ const ContactUs = () => {
           </div>
 
           {/* Address Card */}
-          <div className="bg-red-600 p-6 rounded-lg shadow-lg flex items-center space-x-4">
+          <div className="bg-red-600 p-6 rounded-lg shadow-lg flex items-center justify-center text-center space-x-4">
             <FontAwesomeIcon
               icon={faMapMarkerAlt}
               className="text-white text-3xl"
@@ -105,7 +105,7 @@ const ContactUs = () => {
             <div className="text-center mt-6">
               <button
                 type="submit"
-                className="bg-red-600 text-white py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300"
+                className="bg-red-600 text-white py-3 px-6 rounded-lg hover:bg-black transition duration-300"
               >
                 Send Message
               </button>

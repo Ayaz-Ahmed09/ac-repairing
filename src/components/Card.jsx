@@ -22,18 +22,18 @@ const Cards = ({ title, description, viewDetailLink, image, callNowLink }) => {
         <h2 className="text-xl font-bold font-quicksand mb-2">{title}</h2>
         <p className="text-gray-300 mb-4 flex-grow">{description}</p>
 
-        <div className="flex flex-col sm:flex-row justify-between items-center space-y-3 sm:space-y-0">
+        <div className="flex flex-col sm:flex-row justify-between font-quicksand items-center space-y-3 sm:space-y-0">
           {/* View Details Link */}
           <Link
             href={viewDetailLink}
-            className="text-red-600 hover:underline w-full sm:w-auto text-center sm:text-left"
+            className="text-red-600 hover:underline hover:text-white w-full sm:w-auto text-center sm:text-left"
           >
             View Details
           </Link>
           {/* Call Now Button */}
           <button
             onClick={handleCallNow}
-            className="bg-red-600 text-white px-4 font-quicksand py-2 rounded hover:bg-red-600 w-full sm:w-auto text-center sm:text-left z-20"
+            className="bg-red-600 text-white px-4 font-quicksand py-2 rounded hover:bg-black w-full sm:w-auto text-center sm:text-left z-20"
           >
             Call Now
           </button>

@@ -5,7 +5,7 @@ import Cards from "../Card";
 const Services = ({ services }) => {
   return (
     <section>
-      <h2 className="text-3xl font-bold font-quicksand text-center mb-8 mt-2 ">
+      <h2 className="text-3xl font-bold font-quicksand text-center text-white mb-8 mt-4 ">
         Our Services
       </h2>
       <div

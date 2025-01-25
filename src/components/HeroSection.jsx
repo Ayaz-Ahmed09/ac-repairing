@@ -11,8 +11,8 @@ const HeroSection = () => {
       {/* Left Side - Image */}
       <div className="w-full h-[500px] sm:h-auto lg:pt-[100px] lg:pb- sm:w-1/2 ">
         <img
-          src="/AC reparing and installing services.png" // Replace with your image path
-          alt="Hero Image"
+          src="/AC reparing&installing services.png" // Replace with your image path
+          alt="AC reparing&installing services"
           className="w-full h-full object-cover rounded-lg"
         />
       </div>
@@ -28,7 +28,7 @@ const HeroSection = () => {
         {/* Optional Button */}
         <Link
           href="#services"
-          className="bg-red-600 text-white lg:ml-[350px] py-2 px-6 rounded-full text-lg font-medium hover:bg-gray-200 transition duration-300"
+          className="bg-red-600 text-white lg:ml-[350px] py-2 px-6 rounded-full text-lg font-medium hover:bg-red-800 transition duration-300"
         >
           Explore Services
         </Link>

@@ -28,11 +28,11 @@ const CounterCard = ({
     >
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 rounded-lg"></div>
       <div className="relative z-10 text-center">
-        <h2 className="text-2xl sm:text-4xl font-bold">{label}</h2>
-        <h3 className="text-4xl sm:text-5xl font-extrabold mt-2">
+        <h3 className="text-2xl sm:text-4xl font-bold">{label}</h3>
+        <h4 className="text-4xl sm:text-5xl font-extrabold mt-2">
           <CountUp start={0} end={targetValue} duration={3} separator="," />{" "}
           {unit}
-        </h3>
+        </h4>
       </div>
     </div>
   );

@@ -28,7 +28,7 @@ const DAboutSection = ({
     >
       {/* Left Side (Text) */}
       <div
-        className={`w-full md:w-1/2 px-4 text-center md:text-left transform transition-all duration-1000 ease-in-out ${
+        className={`w-full md:w-1/2 px-4 text-white text-center md:text-left transform transition-all duration-1000 ease-in-out ${
           inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-20"
         }`}
       >

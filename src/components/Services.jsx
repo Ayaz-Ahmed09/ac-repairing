@@ -1,8 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 import Cards from "./Card";
-import "./animations.css"; // Import the CSS with the animation
-
+import "./animations.css";
 const Services = () => {
   const services = [
     {
@@ -14,13 +13,13 @@ const Services = () => {
       callNowLink: "+1 234 567 890",
     },
     {
-      name: "Portable AC Services",
+      name: "Central AC Services",
       description:
-        "Fast and reliable emergency AC repair services to get your system back in action.",
-      link: "/emergency-ac-repair",
+        "Ensure smooth operation year-round with our regular AC maintenance services.",
+      link: "/ac-maintenance",
       image:
-        "/main services/portable-ac-reparing-and-installing-home-services.jpg",
-      callNowLink: "+1 234 567 893",
+        "/main services/central-ac-reparing-and-installing-home-services.jpg",
+      callNowLink: "+1 234 567 892",
     },
     {
       name: "Window AC Services",
@@ -31,14 +30,15 @@ const Services = () => {
         "/main services/window-ac-reparing-and-installing-home-services-.jpg",
       callNowLink: "+1 234 567 891",
     },
+
     {
-      name: "Central AC Services",
+      name: "Portable AC Services",
       description:
-        "Ensure smooth operation year-round with our regular AC maintenance services.",
-      link: "/ac-maintenance",
+        "Fast and reliable emergency AC repair services to get your system back in action.",
+      link: "/emergency-ac-repair",
       image:
-        "/main services/central-ac-reparing-and-installing-home-services.jpg",
-      callNowLink: "+1 234 567 892",
+        "/main services/portable-ac-reparing-and-installing-home-services.jpg",
+      callNowLink: "+1 234 567 893",
     },
     {
       name: "Chiller AC Services",
@@ -50,14 +50,6 @@ const Services = () => {
       callNowLink: "+1 234 567 893",
     },
     {
-      name: "VRF/VRV AC Services",
-      description:
-        "Fast and reliable emergency AC repair services to get your system back in action.",
-      link: "/emergency-ac-repair",
-      image: "/main services/vrf-ac-reparing-and-installing-home-services.jpg",
-      callNowLink: "+1 234 567 893",
-    },
-    {
       name: "Cassette AC Services",
       description:
         "Fast and reliable emergency AC repair services to get your system back in action.",
@@ -66,6 +58,15 @@ const Services = () => {
         "/main services/cassete-ac-reparing-and-installing-home-services.jpg",
       callNowLink: "+1 234 567 893",
     },
+    {
+      name: "VRF/VRV AC Services",
+      description:
+        "Fast and reliable emergency AC repair services to get your system back in action.",
+      link: "/emergency-ac-repair",
+      image: "/main services/vrf-ac-reparing-and-installing-home-services.jpg",
+      callNowLink: "+1 234 567 893",
+    },
+
     {
       name: "Ice Machine Services",
       description:
@@ -80,7 +81,16 @@ const Services = () => {
         "Fast and reliable emergency AC repair services to get your system back in action.",
       link: "/emergency-ac-repair",
       image:
-        "/main services/duct-cleaningac-reparing-and-installing-home-services.jpg",
+        "/main services/duct-cleaningac-reparing-and-installing-home-services (1).jpg",
+      callNowLink: "+1 234 567 893",
+    },
+    {
+      name: "Smart Thermostat Installation",
+      description:
+        "Fast and reliable emergency AC repair services to get your system back in action.",
+      link: "/emergency-ac-repair",
+      image:
+        "/main services/smart-thermostate-ac-reparing-and-installing-home-services.jpg",
       callNowLink: "+1 234 567 893",
     },
   ];
@@ -110,12 +120,12 @@ const Services = () => {
 
   return (
     <section>
-      <h2 className="text-3xl font-bold font-quicksand text-center mb-8 mt-2 ">
+      <h1 className="text-3xl text-white font-bold font-quicksand text-center mb-8 mt-6 ">
         Our Services
-      </h2>
+      </h1>
       <div
         id="services"
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4 "
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 p-4 "
       >
         {services.map((service, index) => (
           <div key={index} className="service-card font-quicksand">

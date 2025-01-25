@@ -1,29 +1,29 @@
 "use client";
 import React from "react";
-import { useInView } from "react-intersection-observer"; // Using Intersection Observer
+import { useInView } from "react-intersection-observer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCheckCircle,
   faShieldAlt,
   faClock,
-} from "@fortawesome/free-solid-svg-icons"; // Font Awesome Icons
+} from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 
 const AboutSection = () => {
   const [inViewRef, inView] = useInView({
-    triggerOnce: false, // Allow repeated triggering on each scroll
-    threshold: 0.5, // Trigger the animation when 50% of the section is in view
+    triggerOnce: false,
+    threshold: 0.5,
   });
 
   return (
     <section
       ref={inViewRef}
-      className="about-section py-20 px-4 md:px-10 flex items-center justify-center min-h-screen relative"
+      className="about-section  py-20 px-4 md:px-10 flex flex-col bg-[url('/home-about-us-bg.png')] bg-cover bg-center  lg:flex-row items-center justify-center  relative"
       style={{
-        backgroundImage: "url('/about.jpeg')",
+        backgroundImage: "url('/home-about-us-bg.png')",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "100% 100% ",
-        backgroundPosition: "cover",
+        backgroundSize: "101% 120% ",
+        backgroundPosition: "cover center",
       }}
     >
       {/* Left Side (Text) */}
@@ -48,7 +48,7 @@ const AboutSection = () => {
         </p>
 
         {/* Icons Section */}
-        <div className="flex justify-around text-white mt-8 text-center">
+        <div className="flex justify-around text-white mt-8 gap-6 text-center">
           {/* Licensed Company Icon */}
           <div className="flex flex-col items-center">
             <FontAwesomeIcon

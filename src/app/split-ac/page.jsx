@@ -9,6 +9,7 @@ import {
   faShieldAlt,
   faClock,
 } from "@fortawesome/free-solid-svg-icons"; // Import icons
+import DWhyChooseUs from "@/components/Dynamic-components/DWhyChooseUs";
 
 const page = () => {
   const splitAcServices = [
@@ -27,21 +28,28 @@ const page = () => {
       callNowLink: "+1 234 567 891",
     },
     {
-      name: "Split AC Repair",
+      name: "Split AC Cleaning",
       description: "Quick and efficient repair for Split AC systems.",
       link: "/split-ac/repair",
       image: "/images/split-ac-repair.jpg",
       callNowLink: "+1 234 567 891",
     },
     {
-      name: "Split AC Repair",
+      name: "Split AC Performance Optimization",
       description: "Quick and efficient repair for Split AC systems.",
       link: "/split-ac/repair",
       image: "/images/split-ac-repair.jpg",
       callNowLink: "+1 234 567 891",
     },
     {
-      name: "Split AC Repair",
+      name: "Split Leak Check",
+      description: "Quick and efficient repair for Split AC systems.",
+      link: "/split-ac/repair",
+      image: "/images/split-ac-repair.jpg",
+      callNowLink: "+1 234 567 891",
+    },
+    {
+      name: "Split Leak Check",
       description: "Quick and efficient repair for Split AC systems.",
       link: "/split-ac/repair",
       image: "/images/split-ac-repair.jpg",
@@ -67,7 +75,7 @@ const page = () => {
     <div className="overflow-x-hidden">
       {/* Hero Section */}
       <DHeroSection
-        image="/split-ac/split-ac-banner.png"
+        image="/split-ac/split-ac-banner (2).png"
         heading="Best Split AC Services"
         subheading="We provide the best solutions for your needs."
         buttonText="Contact Us"
@@ -108,6 +116,10 @@ const page = () => {
           textColor="white"
         />
       </div>
+      <DWhyChooseUs
+        title="Why Choose Us for Residential Repairs?"
+        description="Our residential AC repair services ensure your home stays cool and comfortable with minimal hassle."
+      />
     </div>
   );
 };
