@@ -3,7 +3,7 @@ import { faPhoneAlt, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 const ContactUs = () => {
   return (
-    <section className="w-full py-16 bg-black text-white px-4 sm:px-8 bg-[url('/contact-us.jpeg')] bg-center bg-cover">
+    <section className="w-full py-16 bg-black text-white px-4 sm:px-8 bg-[url('/contact-us.jpeg')]  bg-center bg-cover">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-red-600">
           Contact Us

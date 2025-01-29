@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from "react";
 const Button = ({ name }) => {
   const [pulse, setPulse] = useState(false);

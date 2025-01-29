@@ -103,6 +103,9 @@ const AboutSection = () => {
         className="absolute inset-0 bg-cover bg-center opacity-30"
         style={{
           backgroundImage: "url('/home-about-us-bg.png')",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "101% 120% ",
+          backgroundPosition: "cover center",
         }}
       ></div>
 
@@ -128,7 +131,7 @@ const AboutSection = () => {
         </p>
 
         {/* Icons Section */}
-        <div className="flex flex-wrap justify-center lg:justify-start gap-6 mt-6 text-white">
+        <div className="flex flex-wrap justify-center lg:justify-start gap-6 lg:gap-20 mt-6 text-white">
           {/* Licensed Company */}
           <div className="flex flex-col items-center">
             <FontAwesomeIcon
@@ -169,7 +172,7 @@ const AboutSection = () => {
           alt="About Us Image"
           width={500}
           height={500}
-          className="w-full h-auto max-w-sm mx-auto lg:max-w-full object-cover rounded-lg shadow-lg"
+          className="lg:w-full lg:h-[600px]  mx-auto  object-cover rounded-lg shadow-lg"
         />
       </div>
     </section>

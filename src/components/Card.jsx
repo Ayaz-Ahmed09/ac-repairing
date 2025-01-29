@@ -23,13 +23,15 @@ const Cards = ({ title, description, viewDetailLink, image, callNowLink }) => {
         <p className="text-gray-300 mb-4 flex-grow">{description}</p>
 
         <div className="flex flex-col sm:flex-row justify-between font-quicksand items-center space-y-3 sm:space-y-0">
-          {/* View Details Link */}
-          <Link
-            href={viewDetailLink}
-            className="text-red-600 hover:underline hover:text-white w-full sm:w-auto text-center sm:text-left"
-          >
-            View Details
-          </Link>
+          {/* Conditional Rendering for View Details */}
+          {viewDetailLink ? (
+            <Link
+              href={viewDetailLink}
+              className="text-red-600 hover:underline hover:text-white w-full sm:w-auto text-center sm:text-left"
+            >
+              View Details
+            </Link>
+          ) : null}
           {/* Call Now Button */}
           <button
             onClick={handleCallNow}

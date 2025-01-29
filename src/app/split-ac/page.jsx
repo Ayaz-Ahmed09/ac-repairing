@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import DHeroSection from "@/components/Dynamic-components/DHeroSection";
 import DServices from "@/components/Dynamic-components/DServices";
@@ -10,49 +9,71 @@ import {
   faClock,
 } from "@fortawesome/free-solid-svg-icons"; // Import icons
 import DWhyChooseUs from "@/components/Dynamic-components/DWhyChooseUs";
+import ContactUs from "@/components/ContactUs";
 
 const page = () => {
   const splitAcServices = [
     {
-      name: "Split AC Installation",
+      name: "Installation",
       description: "Professional installation of Split AC systems.",
-      link: "/split-ac/installation",
-      image: "/images/split-ac-installation.jpg",
+      // link: "/split-ac/installation",
+      image: "/split-ac/Split ac installation.jpg",
       callNowLink: "+1 234 567 890",
     },
     {
-      name: "Split AC Repair",
+      name: "Compressor Repair",
       description: "Quick and efficient repair for Split AC systems.",
-      link: "/split-ac/repair",
-      image: "/images/split-ac-repair.jpg",
+      // link: "/split-ac/repair",
+      image: "/split-ac/comprossor.jpg",
       callNowLink: "+1 234 567 891",
     },
     {
-      name: "Split AC Cleaning",
+      name: "Condenser Coil Cleaning",
       description: "Quick and efficient repair for Split AC systems.",
-      link: "/split-ac/repair",
-      image: "/images/split-ac-repair.jpg",
+      // link: "/split-ac/repair",
+      image: "/split-ac/condensor-coil.jpg",
       callNowLink: "+1 234 567 891",
     },
     {
-      name: "Split AC Performance Optimization",
+      name: "Thermostat Replacement",
       description: "Quick and efficient repair for Split AC systems.",
-      link: "/split-ac/repair",
-      image: "/images/split-ac-repair.jpg",
+      // link: "/split-ac/repair",
+      image: "/split-ac/thermostat.jpg",
       callNowLink: "+1 234 567 891",
     },
     {
-      name: "Split Leak Check",
+      name: "Gas Leak Check & Recharge",
       description: "Quick and efficient repair for Split AC systems.",
-      link: "/split-ac/repair",
-      image: "/images/split-ac-repair.jpg",
+      // link: "/split-ac/repair",
+      image: "/split-ac/gas-check.jpg",
       callNowLink: "+1 234 567 891",
     },
     {
-      name: "Split Leak Check",
+      name: "Air Quality Improvement",
       description: "Quick and efficient repair for Split AC systems.",
-      link: "/split-ac/repair",
-      image: "/images/split-ac-repair.jpg",
+      // link: "/split-ac/repair",
+      image: "/split-ac/Airquality.jpg",
+      callNowLink: "+1 234 567 891",
+    },
+    {
+      name: "Evaporator Coil Cleaning",
+      description: "Quick and efficient repair for Split AC systems.",
+      // link: "/split-ac/repair",
+      image: "/split-ac/Split ac evaporator cleaning.jpg",
+      callNowLink: "+1 234 567 891",
+    },
+    {
+      name: "Fan Motor Repair & Replacement",
+      description: "Quick and efficient repair for Split AC systems.",
+      // link: "/split-ac/repair",
+      image: "/split-ac/FanMotorrepair.jpg",
+      callNowLink: "+1 234 567 891",
+    },
+    {
+      name: "Sensor Repair and Replacement",
+      description: "Quick and efficient repair for Split AC systems.",
+      // link: "/split-ac/repair",
+      image: "/split-ac/sensorsrepair.jpg",
       callNowLink: "+1 234 567 891",
     },
   ];
@@ -68,7 +89,7 @@ const page = () => {
       { icon: faShieldAlt, label: "Quality Service" },
       { icon: faClock, label: "24/7 Support" },
     ],
-    image: "/split-ac/split-ac-about-installing-and-reparing.jpg", // Path to image
+    image: "/split-ac/about.jpg", // Path to image
   };
 
   return (
@@ -93,7 +114,7 @@ const page = () => {
       />
 
       {/* Counter Cards */}
-      <div className="bg-red-600 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 py-10">
+      <div className="bg-gradient-to-r from-black via-red-600 to-black grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 py-10">
         <CounterCard
           targetValue={100}
           label="Satisfied Clients"
@@ -120,6 +141,7 @@ const page = () => {
         title="Why Choose Us for Residential Repairs?"
         description="Our residential AC repair services ensure your home stays cool and comfortable with minimal hassle."
       />
+      <ContactUs />
     </div>
   );
 };

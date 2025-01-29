@@ -16,7 +16,7 @@ const Services = () => {
       name: "Central AC Services",
       description:
         "Ensure smooth operation year-round with our regular AC maintenance services.",
-      link: "/ac-maintenance",
+      link: "/central-ac",
       image:
         "/main services/central-ac-reparing-and-installing-home-services.jpg",
       callNowLink: "+1 234 567 892",
@@ -25,7 +25,7 @@ const Services = () => {
       name: "Window AC Services",
       description:
         "Quick and professional installation of your new AC unit, ensuring perfect performance.",
-      link: "/ac-installation",
+      link: "/window-ac",
       image:
         "/main services/window-ac-reparing-and-installing-home-services-.jpg",
       callNowLink: "+1 234 567 891",
@@ -35,7 +35,7 @@ const Services = () => {
       name: "Portable AC Services",
       description:
         "Fast and reliable emergency AC repair services to get your system back in action.",
-      link: "/emergency-ac-repair",
+      link: "/portable-ac",
       image:
         "/main services/portable-ac-reparing-and-installing-home-services.jpg",
       callNowLink: "+1 234 567 893",
@@ -44,7 +44,7 @@ const Services = () => {
       name: "Chiller AC Services",
       description:
         "Fast and reliable emergency AC repair services to get your system back in action.",
-      link: "/emergency-ac-repair",
+      link: "/chiller-ac",
       image:
         "/main services/chillar-ac-reparing-and-installing-home-services.jpg",
       callNowLink: "+1 234 567 893",
@@ -53,7 +53,7 @@ const Services = () => {
       name: "Cassette AC Services",
       description:
         "Fast and reliable emergency AC repair services to get your system back in action.",
-      link: "/emergency-ac-repair",
+      link: "/cassette-ac",
       image:
         "/main services/cassete-ac-reparing-and-installing-home-services.jpg",
       callNowLink: "+1 234 567 893",
@@ -62,7 +62,7 @@ const Services = () => {
       name: "VRF/VRV AC Services",
       description:
         "Fast and reliable emergency AC repair services to get your system back in action.",
-      link: "/emergency-ac-repair",
+      link: "/vrf-vrv-ac",
       image: "/main services/vrf-ac-reparing-and-installing-home-services.jpg",
       callNowLink: "+1 234 567 893",
     },
@@ -71,7 +71,7 @@ const Services = () => {
       name: "Ice Machine Services",
       description:
         "Fast and reliable emergency AC repair services to get your system back in action.",
-      link: "/emergency-ac-repair",
+      link: "/ice-machine-services",
       image: "/main services/ice-ac-reparing-and-installing-home-services.jpg",
       callNowLink: "+1 234 567 893",
     },
@@ -79,7 +79,7 @@ const Services = () => {
       name: "Duct Cleaning & Repairing",
       description:
         "Fast and reliable emergency AC repair services to get your system back in action.",
-      link: "/emergency-ac-repair",
+      link: "/duct-cleaning",
       image:
         "/main services/duct-cleaningac-reparing-and-installing-home-services (1).jpg",
       callNowLink: "+1 234 567 893",
@@ -88,7 +88,7 @@ const Services = () => {
       name: "Smart Thermostat Installation",
       description:
         "Fast and reliable emergency AC repair services to get your system back in action.",
-      link: "/emergency-ac-repair",
+      link: "/thermostat-installation",
       image:
         "/main services/smart-thermostate-ac-reparing-and-installing-home-services.jpg",
       callNowLink: "+1 234 567 893",

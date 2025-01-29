@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const HeroSection = () => {
@@ -5,10 +6,12 @@ const HeroSection = () => {
     <section className="w-full h-[600px] flex flex-col bg-gradient-to-b from-red-600/10 via-black/35 to-red-600/50 sm:flex-row items-center justify-center bg-black text-white px-4 sm:px-8 relative pt-[120px] sm:pt-0 md:flex-col lg:flex-row">
       {/* Left Side - Image */}
       <div className="w-full h-[500px] sm:h-auto lg:pt-[100px] lg:pb- sm:w-1/2 md:w-3/4 md:mt-16">
-        <img
-          src="/AC reparing&installing services.png" // Replace with your image path
-          alt="AC reparing&installing services"
-          className="w-full h-full object-cover rounded-lg"
+        <Image
+          src="/AC reparing and installing services main.png" // Replace with your image path
+          alt="AC reparing and installing services "
+          width={500}
+          height={500} // Adjust the width and height based on your image size
+          className="w-full h-full  object-cover rounded-lg"
         />
       </div>
 

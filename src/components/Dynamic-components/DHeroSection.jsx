@@ -19,14 +19,14 @@ const HeroSection = ({
       </div>
 
       <div className="w-full sm:w-1/2 h-full lg:ml-12 flex flex-col items-center sm:items-start justify-center text-center sm:text-left px-4 sm:px-8 mt-4 sm:mt-0">
-        <p className="text-3xl sm:text-4xl md:text-4xl font-bold mb-4">
+        <p className="text-3xl sm:text-4xl md:text-4xl text-center font-bold mb-4">
           {heading}
         </p>
         <p className="text-base sm:text-lg md:text-2xl mb-8">{subheading}</p>
 
         <Button
           name={"call now"}
-          className="bg-red-600 text-white py-2 px-6 rounded-full text-lg font-medium hover:bg-red-800 transition duration-300"
+          className="bg-red-600 text-white py-2   rounded-full text-lg font-medium hover:bg-red-800 transition duration-300"
         />
       </div>
     </section>

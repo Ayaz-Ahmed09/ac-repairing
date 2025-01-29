@@ -4,8 +4,8 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-10 relative overflow-hidden">
-      <div className="absolute inset-0">
-        <div className="w-64 h-64 bg-red-500 opacity-20 blur-2xl rounded-full absolute top-8 left-1/4"></div>
+      <div className="absolute inset-0  ">
+        <div className="w-64 h-64 bg-red-500 opacity-20 blur-xl rounded-full absolute top-8 left-1/4"></div>
         <div className="w-48 h-48 bg-red-700 opacity-10 blur-xl rounded-full absolute bottom-8 right-1/3"></div>
       </div>
       <div className="container mx-auto text-center space-y-8 relative z-10">
@@ -18,9 +18,9 @@ const Footer = () => {
             className="text-center "
           />
         </div>
-        <h2 className="text-4xl font-bold text-red-500 font-quicksand">
+        {/* <h2 className="text-4xl font-bold text-red-500 font-quicksand">
           Elegance in Every Detail
-        </h2>
+        </h2> */}
         <p className="text-lg font-light max-w-2xl mx-auto">
           We ensure comfort and style go hand in hand, delivering premium AC
           repair services that stand out.
