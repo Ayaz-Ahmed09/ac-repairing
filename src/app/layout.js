@@ -3,7 +3,8 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 export const metadata = {
   title: "Ac Repairing",
-  description: "Best Ac Service In your Area",
+  description:
+    "Looking for air conditioner repair and Ac installation in Dubai? We offer expert AC repair, aircon installation, and maintenance services near you. Call us today.",
 };
 
 export default function RootLayout({ children }) {

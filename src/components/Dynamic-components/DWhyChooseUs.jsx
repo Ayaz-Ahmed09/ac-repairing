@@ -1,82 +1,53 @@
-"use client";
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faTools,
-  faThumbsUp,
-  faShieldAlt,
-  faHeadset,
-} from "@fortawesome/free-solid-svg-icons"; // Necessary icons
+  FaHammer,
+  FaDollarSign,
+  FaMapMarkerAlt,
+  FaUser,
+  FaThumbtack,
+  FaTools,
+  FaTruck,
+  FaShieldAlt,
+} from "react-icons/fa";
 
-const DWhyChooseUs = ({ title, description }) => {
+const DWhyChooseUs = ({ heading, description, iconDescriptions }) => {
+  // Check if iconDescriptions is provided and has the expected number of items
+  if (!iconDescriptions || iconDescriptions.length !== 8) {
+    console.error(
+      "Error: iconDescriptions must be an array with exactly 8 items."
+    );
+    return null; // Or you could display a fallback message or UI here
+  }
+
+  // Static icons mapped to their corresponding descriptions
+  const icons = [
+    { icon: <FaHammer />, description: iconDescriptions[0] },
+    { icon: <FaDollarSign />, description: iconDescriptions[1] },
+    { icon: <FaMapMarkerAlt />, description: iconDescriptions[2] },
+    { icon: <FaUser />, description: iconDescriptions[3] },
+    { icon: <FaThumbtack />, description: iconDescriptions[4] },
+    { icon: <FaTools />, description: iconDescriptions[5] },
+    { icon: <FaTruck />, description: iconDescriptions[6] },
+    { icon: <FaShieldAlt />, description: iconDescriptions[7] },
+  ];
+
   return (
-    <section className="why-choose-us py-16 px-4 md:px-10 bg-black text-white">
-      <div className="container mx-auto text-center">
-        {/* Dynamic Title */}
-        <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-red-500">
-          {title}
+    <section className="bg-black text-white py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto text-center">
+        <h2 className="text-3xl font-bold text-red-600 sm:text-4xl">
+          {heading}
         </h2>
+        <p className="mt-4 text-lg text-white sm:text-xl">{description}</p>
 
-        {/* Dynamic Description */}
-        <p className="text-lg sm:text-xl mb-12">{description}</p>
-
-        {/* Static Content */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Icon 1: Professional Service */}
-          <div className="flex flex-col items-center text-center">
-            <FontAwesomeIcon
-              icon={faTools}
-              className="text-red-500 text-4xl mb-4"
-            />
-            <h3 className="text-xl font-semibold mb-2">Professional Service</h3>
-            <p>
-              Expert technicians provide high-quality repairs and installations
-              for all AC brands.
-            </p>
-          </div>
-
-          {/* Icon 2: Satisfaction Guaranteed */}
-          <div className="flex flex-col items-center text-center">
-            <FontAwesomeIcon
-              icon={faThumbsUp}
-              className="text-red-500 text-4xl mb-4"
-            />
-            <h3 className="text-xl font-semibold mb-2">
-              Satisfaction Guaranteed
-            </h3>
-            <p>
-              We ensure customer satisfaction with every service, backed by
-              positive reviews and repeat clients.
-            </p>
-          </div>
-
-          {/* Icon 3: Quality Parts */}
-          <div className="flex flex-col items-center text-center">
-            <FontAwesomeIcon
-              icon={faShieldAlt}
-              className="text-red-500 text-4xl mb-4"
-            />
-            <h3 className="text-xl font-semibold mb-2">Quality Parts</h3>
-            <p>
-              We use only top-quality parts to ensure durability and optimal
-              performance of your AC system.
-            </p>
-          </div>
-
-          {/* Icon 4: 24/7 Customer Support */}
-          <div className="flex flex-col items-center text-center">
-            <FontAwesomeIcon
-              icon={faHeadset}
-              className="text-red-500 text-4xl mb-4"
-            />
-            <h3 className="text-xl font-semibold mb-2">
-              24/7 Customer Support
-            </h3>
-            <p>
-              Our dedicated team is available 24/7 to assist you with emergency
-              repairs or inquiries.
-            </p>
-          </div>
+        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
+          {icons.map((icon, index) => (
+            <div key={index} className="flex flex-col items-center text-white">
+              <div className="text-red-600 text-4xl mb-2">
+                {icon.icon} {/* Static Icon */}
+              </div>
+              <p className="text-sm sm:text-base">{icon.description}</p>{" "}
+              {/* Dynamic Description */}
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -27,15 +27,15 @@ const Navbar = () => {
         {/* Navigation Links */}
         <div className="w-full md:w-[500px] h-full flex flex-row items-center justify-between md:mr-20 mt-2 md:mt-0 ">
           <div className="flex items-center justify-between w-full h-auto border border-red-600 bg-[#4e14145e] px-4 py-2 rounded-full  text-gray-200">
-            <a href="/" className="cursor-pointer">
+            <Link href="/" className="cursor-pointer">
               Home
-            </a>
-            <a href="/About" className="cursor-pointer">
+            </Link>
+            <Link href="/About" className="cursor-pointer">
               About Us
-            </a>
-            <a href="/Contact-us" className="cursor-pointer">
+            </Link>
+            <Link href="/Contact-us" className="cursor-pointer">
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
 

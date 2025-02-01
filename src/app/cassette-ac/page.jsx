@@ -10,78 +10,99 @@ import {
 } from "@fortawesome/free-solid-svg-icons"; // Import icons
 import DWhyChooseUs from "@/components/Dynamic-components/DWhyChooseUs";
 import ContactUs from "@/components/ContactUs";
-
+import Testimonial from "@/components/Testimonial";
+import DynamicSection from "@/components/DynamicSection";
 const page = () => {
   const CassetteAcServices = [
     {
       name: "Installation",
-      description: "Professional installation of Split AC systems.",
-      // link: "/split-ac/installation",
+      description:
+        "Our expert team provides professional cassette AC installation, ensuring optimal placement and efficient cooling for your space.",
       image: "/cassette-ac/cassete ac installation.jpg",
       callNowLink: "+1 234 567 890",
     },
     {
-      name: "Airflow Adjustment ",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
-      image: "/cassette-ac/chiller ac air flow.jpg",
-      callNowLink: "+1 234 567 891",
+      name: "Cooling Issues Diagnosis and Repair",
+      description:
+        "Identifying and fixing problems like insufficient cooling, warm air, or inconsistent temperature due to issues with the compressor, refrigerant, or electrical components.",
+      image: "/cassette-ac/cassete ac cooling issues.jpg",
+      callNowLink: "+971569096124",
     },
     {
       name: "Drip Tray & Condensation Check",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
+      description: "Inspecting and cleaning drip trays to prevent water leaks.",
       image: "/cassette-ac/deep-tray.jpg",
-      callNowLink: "+1 234 567 891",
+      callNowLink: "+971569096124",
     },
     {
       name: "Refrigerant Level Check",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
+      description:
+        "Ensuring proper refrigerant levels for efficient performance.",
       image: "/cassette-ac/gas-check.jpg",
-      callNowLink: "+1 234 567 891",
+      callNowLink: "+971569096124",
     },
     {
       name: "Component Repairs",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
+      description:
+        "Repairing and replacing faulty AC components for reliability.",
       image: "/cassette-ac/compounent.jpg",
-      callNowLink: "+1 234 567 891",
+      callNowLink: "+971569096124",
     },
     {
       name: "Air Filter Replacement",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
+      description:
+        "Cleaning or replacing clogged filters to improve airflow, efficiency, and air quality.",
       image: "/cassette-ac/chiller ac air filter replacement.jpg",
-      callNowLink: "+1 234 567 891",
+      callNowLink: "+971569096124",
     },
     {
-      name: "Drain Line Clearing ",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
+      name: "Drain Line Clearing",
+      description:
+        "Ensuring proper water drainage by inspecting and clearing any blockages in the drain lines to prevent water leakage and mold growth.",
       image: "/chiller-ac/performance.jpg",
-      callNowLink: "+1 234 567 891",
+      callNowLink: "+971569096124",
     },
     {
-      name: "Unit Replacement ",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
-      image: "/cassette-ac/cassete ac unit rplacement.jpg",
-      callNowLink: "+1 234 567 891",
+      name: "Compressor Repair and Replacement",
+      description:
+        "Fixing or replacing the compressor if it’s not functioning correctly, as it is critical to the AC’s cooling process.",
+      image: "/cassette-ac/cassete ac compressor repair (1).jpg",
+      callNowLink: "+971569096124",
     },
     {
-      name: "Leak & Refrigerant Issues ",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
+      name: "Leak & Refrigerant Issues",
+      description:
+        "Identifying refrigerant leaks and refilling the system to ensure optimal cooling performance.",
       image: "/cassette-ac/leaks.jpg",
-      callNowLink: "+1 234 567 891",
+      callNowLink: "+971569096124",
+    },
+    {
+      name: "Coil Cleaning and Maintenance",
+      description:
+        "Cleaning the evaporator and condenser coils to prevent dirt buildup, which can reduce cooling efficiency and cause system damage.",
+      image: "/cassette-ac/cassete ac coil cleaning.jpg",
+      callNowLink: "+971569096124",
+    },
+    {
+      name: "Electrical Component Repairs",
+      description:
+        " Inspecting and repairing electrical parts like wiring, circuit boards, and thermostats to maintain safe and reliable operation.",
+      image: "/cassette-ac/cassete ac Unit Reinstallation and Realignment.jpg",
+      callNowLink: "+971569096124",
+    },
+    {
+      name: "Thermostat Calibration and Repair",
+      description:
+        " Adjusting or repairing the thermostat to ensure accurate temperature regulation and efficient operation.",
+      image: "/cassette-ac/cassete ac thermostate repair.jpg",
+      callNowLink: "+971569096124",
     },
   ];
 
   const aboutData = {
-    title: "About Our Cassette AC Services",
+    title: "Top-Notch Cassette AC Maintenance & Installation Services",
     description1:
-      "We are experts in Cassette AC services, offering installation, maintenance, and repair solutions.",
+      "Maintain a comfortable and trendy environment in Dubai with our expert cassette AC repair and installation services. We ensure smooth, long-lasting performance by using only premium, genuine parts. Trust us for reliable, energy-efficient cooling, backed by a warranty on all our work.",
     description2:
       "Our skilled team ensures high-quality service, timely completion, and customer satisfaction.",
     icons: [
@@ -91,16 +112,49 @@ const page = () => {
     ],
     image: "/cassette-ac/about-us-cassete-ac.jpg", // Path to image
   };
-
+  const whyChooseUsData = {
+    heading: " Why Choose Us For Cassette AC Services",
+    description:
+      "We offer the best quality services, with customer satisfaction being our top priority.",
+    iconDescriptions: [
+      "Our highly trained specialists are equipped to work on all types of cassette AC systems with utmost precision.",
+      "We offer clear, competitive pricing with no hidden fees or extra charges.  ",
+      "Citywide Service",
+      "We take pride in our attention to detail, ensuring your cassette AC operates at its highest efficiency.",
+      "Our prompt and dependable emergency services ensure your cassette AC is up and running in no time.",
+      "Our work is backed by a warranty, giving you peace of mind in our commitment to quality.",
+      "We only use robust, premium-grade parts designed specifically for cassette AC units",
+      "We provide customized solutions designed to meet your specific comfort and satisfaction needs.",
+    ],
+  };
+  const homeContent = {
+    heading: "Cassette AC Repair & Installation Services in Dubai",
+    description:
+      "For the ultimate in comfort and style, a well-functioning cassette AC system is a must in Dubai’s heat. Whether you need repairs or a new installation, our skilled technicians are here to provide fast, reliable service, ensuring your space remains cool throughout the year.",
+    bulletPoints: [
+      "Licensed Company",
+      "Affordable Pricing",
+      "Quality Work",
+      "24/7 Cassette Ac Service",
+    ],
+  };
   return (
     <div className="overflow-x-hidden">
+      <title>
+        Professional Services Of Cassette AC Repair & Installation in Dubai
+      </title>
       {/* Hero Section */}
       <DHeroSection
         image="/cassette-ac/ac banners casste.png"
-        heading="Best Chiller AC Services"
+        heading="Best Cassette AC Services"
         subheading="We provide the best solutions for your needs."
         buttonText="Contact Us"
         buttonLink="#contact-us"
+      />
+      <DynamicSection
+        heading={homeContent.heading}
+        description={homeContent.description}
+        bulletPoints={homeContent.bulletPoints}
       />
       <DServices services={CassetteAcServices} />
 
@@ -114,7 +168,7 @@ const page = () => {
       />
 
       {/* Counter Cards */}
-      <div className="bg-gradient-to-r from-black via-red-600 to-black grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 py-10">
+      <div className="bg-gradient-to-r from-black via-red-600 to-black grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8 px-4 py-10">
         <CounterCard
           targetValue={100}
           label="Satisfied Clients"
@@ -138,9 +192,11 @@ const page = () => {
         />
       </div>
       <DWhyChooseUs
-        title="Why Choose Us for Residential Repairs?"
-        description="Our residential AC repair services ensure your home stays cool and comfortable with minimal hassle."
+        heading={whyChooseUsData.heading}
+        description={whyChooseUsData.description}
+        iconDescriptions={whyChooseUsData.iconDescriptions}
       />
+      <Testimonial page="Cassettepage" />
       <ContactUs />
     </div>
   );

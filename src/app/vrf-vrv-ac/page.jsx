@@ -10,99 +10,125 @@ import {
 } from "@fortawesome/free-solid-svg-icons"; // Import icons
 import DWhyChooseUs from "@/components/Dynamic-components/DWhyChooseUs";
 import ContactUs from "@/components/ContactUs";
+import Testimonial from "@/components/Testimonial";
+import DynamicSection from "@/components/DynamicSection";
 
 const page = () => {
   const vrfAcServices = [
     {
       name: "Installation",
-      description: "Professional installation of Split AC systems.",
-      // link: "/split-ac/installation",
-      image: "/vrf-vrv/installtion.jpg",
+      description:
+        "Trust our experienced team to install your VRV/VRF AC system, ensuring seamless setup and maximum efficiency.",
+      image: "/vrf-vrv/installtion-vrf.jpg",
       callNowLink: "+1 234 567 890",
     },
     {
-      name: "Cleaning Indoor & Outdoor Units ",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
-      image: "/vrf-vrv/vrf-vrv psd.jpg",
-      callNowLink: "+1 234 567 891",
+      name: "Cooling Performance Diagnosis and Repair",
+      description:
+        "Identifying and fixing issues related to insufficient cooling, temperature inconsistencies, or system malfunctions that affect the overall performance of the VRV/VRF system.",
+      image: "/vrf-vrv/vrf-vrv coolinf issues.jpg",
+      callNowLink: "+1 234 567 890",
     },
     {
-      name: "Drainage System Check",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
-      image: "/vrf-vrv/cleaning.jpg",
-      callNowLink: "+1 234 567 891",
-    },
-    {
-      name: "System Calibration",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
-      image: "/vrf-vrv/system.jpg",
-      callNowLink: "+1 234 567 891",
+      name: "Cleaning Indoor & Outdoor Units",
+      description: "Thorough cleaning of VRF units for optimal performance.",
+      image: "/vrf-vrv/cleaning-vrf.jpg",
+      callNowLink: "+971569096124",
     },
     {
       name: "Refrigerant Leak Repair",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
+      description:
+        "Detecting and repairing refrigerant leaks, ensuring your system is properly charged to restore optimal cooling performance and prevent future damage.",
       image: "/vrf-vrv/leak.jpg",
-      callNowLink: "+1 234 567 891",
+      callNowLink: "+971569096124",
     },
     {
       name: "Compressor & Fan Repair",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
-      image: "/vrf-vrv/repair.jpg",
-      callNowLink: "+1 234 567 891",
+      description:
+        "Diagnosing and repairing compressor issues that may result in cooling failure or poor system efficiency, or replacing the compressor when necessary.",
+      image: "/vrf-vrv/fan-motor.jpg",
+      callNowLink: "+971569096124",
     },
     {
-      name: "Replacing or Retrofitting Units ",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
-      image: "/vrf-vrv/unit.jpg",
-      callNowLink: "+1 234 567 891",
+      name: "System Expansion",
+      description: "Adding new units to expand your VRF system capacity.",
+      image: "/vrf-vrv/expension.png",
+      callNowLink: "+971569096124",
     },
     {
-      name: "System Expansion  ",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
-      image: "/vrf-vrv/systemexpension.jpg",
-      callNowLink: "+1 234 567 891",
+      name: "Error Code Interpretation",
+      description: "Diagnosing and troubleshooting VRF system error codes.",
+      image: "/vrf-vrv/error-check.jpg",
+      callNowLink: "+971569096124",
     },
     {
-      name: "Error Code Interpretation ",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
-      image: "/vrf-vrv/error.jpg",
-      callNowLink: "+1 234 567 891",
+      name: "Refrigerant Loss or Compressor Failure",
+      description: "Fixing refrigerant loss issues and compressor failures.",
+      image: "/vrf-vrv/Refrigerant Loss or Compressor Failure.jpg",
+      callNowLink: "+971569096124",
     },
     {
-      name: "Refrigerant Loss or Compressor Failure  ",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
-      image: "/vrf-vrv/failur.jpg",
-      callNowLink: "+1 234 567 891",
-    },
-    {
-      name: "Load & Capacity Balancing",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
+      name: "Faulty Wiring and Electrical Repairs",
+      description:
+        "Troubleshooting and repairing any electrical issues such as faulty wiring, circuit boards, or connections that could cause system failures or malfunctions.",
       image: "/vrf-vrv/load.jpg",
-      callNowLink: "+1 234 567 891",
+      callNowLink: "+971569096124",
     },
     {
-      name: "24/7 Emergency Repairs",
-      description: "Quick and efficient repair for Split AC systems.",
-      // link: "/split-ac/repair",
+      name: "Sensor and Thermostat Repairs",
+      description:
+        "Fixing or replacing malfunctioning temperature sensors and thermostats to ensure precise temperature regulation and system efficiency.",
+      image: "/vrf-vrv/vrf-vrv sensors and thermostate.jpg",
+      callNowLink: "+971569096124",
+    },
+    {
+      name: "Fan Coil Unit Troubleshooting",
+      description:
+        "Addressing problems with individual fan coil units, such as poor airflow, unusual noises, or malfunctioning components that affect comfort in different areas of the building.",
+      image: "/vrf-vrv/1738399702467.jpg",
+      callNowLink: "+971569096124",
+    },
+    {
+      name: "Control Panel and System Reset",
+      description:
+        "Resolving issues with the control panel, including error codes, system lockouts, or improper settings that prevent the VRV/VRF system from operating correctly.",
       image: "/vrf-vrv/24hr.jpg",
-      callNowLink: "+1 234 567 891",
+      callNowLink: "+971569096124",
+    },
+    {
+      name: "Drainage System Check and Repair",
+      description:
+        "Inspecting and repairing drainage lines to ensure proper water flow and prevent leaks or mold buildup in the system.",
+      image: "/vrf-vrv/water.jpg",
+      callNowLink: "+971569096124",
+    },
+    {
+      name: "Airflow and Ductwork Inspection",
+      description:
+        "Ensuring proper airflow and inspecting ducts for blockages, leaks, or damage that may impair the system’s efficiency.",
+      image: "/vrf-vrv/airflow.jpg",
+      callNowLink: "+971569096124",
     },
   ];
-
+  const whyChooseUsData = {
+    heading: " Why Choose Us For VRF/VRV AC Services?",
+    description:
+      "Keep your space cool and energy-efficient with our expert VRF/VRV AC repair and installation services in Dubai. We only use authentic, high-quality parts to ensure smooth performance and durability. Our services are backed by a warranty, so you can rely on us for dependable and efficient cooling.",
+    iconDescriptions: [
+      "Our skilled technicians are equipped with the training and expertise to handle all kinds of VRF/VRV AC systems with accuracy",
+      "We offer honest, competitive pricing with no hidden fees or surprises.",
+      "Citywide Service",
+      "We focus on detail and excellence to ensure your VRF/VRV AC operates at its highest potential.",
+      " Get fast, dependable emergency service to restore your VRF/VRV AC quickly, no matter the time.",
+      "We back our services with a warranty, giving you confidence in the quality and longevity of our work.",
+      "Our solutions are tailored to meet your needs, ensuring your utmost comfort and satisfaction.",
+      "We use only robust, premium-quality parts that are specifically designed for VRF/VRV AC systems.",
+    ],
+  };
   const aboutData = {
-    title: "About Our Cassette AC Services",
+    title: "VRF/VRV AC Maintenance & Premium Installation Services",
     description1:
-      "We are experts in Cassette AC services, offering installation, maintenance, and repair solutions.",
+      "We know how crucial it is to have a fully functional VRF/VRV AC system. Our skilled team offers high-quality repair and installation services, using top-tier parts and industry best practices. Whether it’s solving cooling issues, fixing strange noises, or installing a new system, we ensure everything works efficiently and with optimal energy usage.",
     description2:
       "Our skilled team ensures high-quality service, timely completion, and customer satisfaction.",
     icons: [
@@ -112,9 +138,20 @@ const page = () => {
     ],
     image: "/vrf-vrv/vrv-vrf about us.jpg", // Path to image
   };
-
+  const homeContent = {
+    heading: "VRF/VRV AC Repair & Installation Service in Dubai",
+    description:
+      "For the ultimate in comfort and style, a well-functioning Vrf/Vrv AC system is a must in Dubai’s heat. Whether you need repairs or a new installation, our skilled technicians are here to provide fast, reliable service, ensuring your space remains cool throughout the year.",
+    bulletPoints: [
+      "Licensed Company",
+      "Affordable Pricing",
+      "Quality Work",
+      "24/7 Cassette Ac Service",
+    ],
+  };
   return (
     <div className="overflow-x-hidden">
+      <title>Professional VRF/VRV AC Repair & Installation in Dubai</title>
       {/* Hero Section */}
       <DHeroSection
         image="/vrf-vrv/vrf - vrv ac banners.png"
@@ -122,6 +159,11 @@ const page = () => {
         subheading="We provide the best solutions for your needs."
         buttonText="Contact Us"
         buttonLink="#contact-us"
+      />
+      <DynamicSection
+        heading={homeContent.heading}
+        description={homeContent.description}
+        bulletPoints={homeContent.bulletPoints}
       />
       <DServices services={vrfAcServices} />
 
@@ -159,9 +201,11 @@ const page = () => {
         />
       </div>
       <DWhyChooseUs
-        title="Why Choose Us for Residential Repairs?"
-        description="Our residential AC repair services ensure your home stays cool and comfortable with minimal hassle."
+        heading={whyChooseUsData.heading}
+        description={whyChooseUsData.description}
+        iconDescriptions={whyChooseUsData.iconDescriptions}
       />
+      <Testimonial page="vrfvrvpage" />
       <ContactUs />
     </div>
   );

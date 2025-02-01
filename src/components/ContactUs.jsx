@@ -12,7 +12,7 @@ const ContactUs = () => {
         {/* Contact Cards */}
         <div className="text-center items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {/* Contact Number 1 */}
-          <div className="bg-red-600 p-6 rounded-lg shadow-lg flex items-center justify-center  text-center space-x-4">
+          <div className="bg-red-600 bg-opacity-50 p-6 rounded-lg shadow-lg flex items-center justify-center  text-center space-x-4">
             <FontAwesomeIcon
               icon={faPhoneAlt}
               className="text-white text-3xl"
@@ -24,19 +24,19 @@ const ContactUs = () => {
           </div>
 
           {/* Contact Number 2 */}
-          <div className="bg-red-600 p-6 rounded-lg shadow-lg flex items-center text-center justify-center space-x-4">
+          <div className="bg-red-600 p-6 bg-opacity-50 rounded-lg shadow-lg flex items-center text-center justify-center space-x-4">
             <FontAwesomeIcon
               icon={faPhoneAlt}
               className="text-white text-3xl"
             />
             <div>
               <h3 className="text-xl font-semibold">Call Us Now</h3>
-              <p className="text-lg">+1 234 567 891</p>
+              <p className="text-lg">+971569096124</p>
             </div>
           </div>
 
           {/* Address Card */}
-          <div className="bg-red-600 p-6 rounded-lg shadow-lg flex items-center justify-center text-center space-x-4">
+          <div className="bg-red-600 p-6 bg-opacity-50 rounded-lg shadow-lg flex items-center justify-center text-center space-x-4">
             <FontAwesomeIcon
               icon={faMapMarkerAlt}
               className="text-white text-3xl"

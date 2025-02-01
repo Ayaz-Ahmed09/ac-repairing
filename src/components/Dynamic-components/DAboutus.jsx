@@ -24,7 +24,7 @@ const DAboutSection = ({
   return (
     <section
       ref={inViewRef}
-      className="about-section py-20 px-4 md:px-10 flex items-center justify-center flex-col md:flex-row "
+      className="about-section py-20 px-4 md:px-10 flex items-center justify-center flex-col md:flex-row bg-[url('/footer.jpeg')] bg-cover bg-center"
     >
       {/* Left Side (Text) */}
       <div
@@ -39,7 +39,7 @@ const DAboutSection = ({
         <p className="text-lg text-center sm:text-xl mb-4">{description2}</p>
 
         {/* Icons Section */}
-        <div className="flex justify-around mt-16 lg:mr-20 text-center gap-6">
+        {/* <div className="flex justify-around mt-16 lg:mr-20 text-center gap-6">
           {icons.map((icon, index) => (
             <div key={index} className="flex flex-col items-center">
               <FontAwesomeIcon
@@ -49,7 +49,7 @@ const DAboutSection = ({
               <p className="text-sm">{icon.label}</p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
 
       {/* Right Side (Image with Bounce Animation) */}

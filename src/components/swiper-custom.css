@@ -1,0 +1,5 @@
+/* General button styling */
+.swiper-button-prev, 
+.swiper-button-next {
+    color: white !important; /* White for better contrast */
+}

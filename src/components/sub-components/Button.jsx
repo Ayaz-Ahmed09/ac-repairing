@@ -20,7 +20,7 @@ const Button = ({ name }) => {
     <div className="flex justify-center ">
       <button
         onClick={handleCall}
-        className={`bg-red-600 text-white px-4 rounded-2xl mb-2 font-quicksand py-2  transition-all duration-300 ease-in-out hover:bg-red-800 hover:text-white 
+        className={`bg-red-600 text-white md:px-10  px-6 rounded-xl mb-2 font-quicksand py-2  transition-all duration-300 ease-in-out hover:bg-red-800 hover:text-white 
           ${pulse ? "animate-pulse" : ""} 
           hover:scale-105 hover:shadow-xl`}
       >

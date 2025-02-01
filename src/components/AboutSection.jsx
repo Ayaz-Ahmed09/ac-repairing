@@ -100,12 +100,10 @@ const AboutSection = () => {
     >
       {/* Background */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-30"
+        className="absolute inset-0 opacity-30 bg-cover bg-center lg:bg-[url('/home-about-us-bg.png')] sm:bg-[url('/home-about-us-bg.png')] bg-no-repeat bg-cover"
         style={{
-          backgroundImage: "url('/home-about-us-bg.png')",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "101% 120% ",
-          backgroundPosition: "cover center",
+          backgroundSize: "101% 120%",
+          backgroundPosition: "center",
         }}
       ></div>
 
@@ -116,23 +114,28 @@ const AboutSection = () => {
         }`}
       >
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white">
-          About Us
+          Top-Notch Air Cond Maintenace & Installation Services
         </h2>
         <p className="text-base sm:text-lg lg:text-xl text-white mb-4 leading-relaxed">
-          We are a creative team that loves bringing ideas to life through
-          design, development, and digital solutions. Our mission is to help
-          brands grow, evolve, and succeed by creating impactful digital
-          experiences.
+          We understand how frustrating it can be when your air conditioner
+          isn’t working properly. That’s why we focus on delivering quality
+          workmanship and using top-quality parts for both air conditioner
+          repair and aircon installation. Whether it’s fixing a refrigerant
+          leak, a faulty compressor, or a thermostat issue, our certified
+          technicians diagnose and repair your AC with precision, ensuring it
+          runs smoothly and lasts longer. For installations, we don’t just place
+          the unit – we ensure it operates at peak performance. From selecting
+          the right size to proper wiring and testing, we follow industry
+          standards to guarantee optimal cooling and energy efficiency.
         </p>
-        <p className="text-base sm:text-lg lg:text-xl text-white mb-6 leading-relaxed">
-          Our passionate team thrives on collaboration and innovation. With
-          experience in design, marketing, and development, we create tailored
-          solutions that drive measurable results.
-        </p>
+        {/* <ul className="text-base sm:text-lg lg:text-xl text-white mb-6 leading-relaxed">
+         <li></li>
+         <li></li>
+         <li></li>
+        </ul> */}
 
         {/* Icons Section */}
-        <div className="flex flex-wrap justify-center lg:justify-start gap-6 lg:gap-20 mt-6 text-white">
-          {/* Licensed Company */}
+        {/* <div className="flex flex-wrap justify-center lg:justify-start gap-6 lg:gap-20 mt-6 text-white">
           <div className="flex flex-col items-center">
             <FontAwesomeIcon
               icon={faCheckCircle}
@@ -141,7 +144,6 @@ const AboutSection = () => {
             <p className="text-sm sm:text-base">Licensed Company</p>
           </div>
 
-          {/* Quality Assurance */}
           <div className="flex flex-col items-center">
             <FontAwesomeIcon
               icon={faShieldAlt}
@@ -150,7 +152,6 @@ const AboutSection = () => {
             <p className="text-sm sm:text-base">Quality Assurance</p>
           </div>
 
-          {/* 24-Hour Service */}
           <div className="flex flex-col items-center">
             <FontAwesomeIcon
               icon={faClock}
@@ -158,7 +159,7 @@ const AboutSection = () => {
             />
             <p className="text-sm sm:text-base">24-Hour Service</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Right Side (Image) */}
@@ -168,7 +169,7 @@ const AboutSection = () => {
         }`}
       >
         <Image
-          src="/home-about-us (1).jpg"
+          src="/about us.jpg"
           alt="About Us Image"
           width={500}
           height={500}

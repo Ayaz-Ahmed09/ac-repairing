@@ -7,34 +7,37 @@ const Services = () => {
     {
       name: "Split AC Services",
       description:
-        "We offer high-quality AC repairs for all brands, providing fast and efficient solutions.",
+        "Get expert split AC repair and installation services in Dubai, ensuring optimal cooling and comfort all year round.",
       link: "/split-ac",
       image: "/main services/split-ac.jpeg",
+      hoverImg: "/split.png",
+      // hoverImg: "/testingimg.webp",
       callNowLink: "+1 234 567 890",
     },
     {
       name: "Central AC Services",
       description:
-        "Ensure smooth operation year-round with our regular AC maintenance services.",
+        "Reliable central AC repair and installation services in Dubai, designed to keep your home or office cool and efficient.",
       link: "/central-ac",
       image:
         "/main services/central-ac-reparing-and-installing-home-services.jpg",
+      hoverImg: "/central2.png",
       callNowLink: "+1 234 567 892",
     },
     {
       name: "Window AC Services",
       description:
-        "Quick and professional installation of your new AC unit, ensuring perfect performance.",
+        "Professional window AC repair and installation services in Dubai, providing efficient cooling solutions for your space.",
       link: "/window-ac",
       image:
         "/main services/window-ac-reparing-and-installing-home-services-.jpg",
-      callNowLink: "+1 234 567 891",
+      callNowLink: "+971569096124",
     },
 
     {
       name: "Portable AC Services",
       description:
-        "Fast and reliable emergency AC repair services to get your system back in action.",
+        "Expert portable AC repair and installation services in Dubai, delivering convenient and effective cooling for any space.",
       link: "/portable-ac",
       image:
         "/main services/portable-ac-reparing-and-installing-home-services.jpg",
@@ -43,7 +46,7 @@ const Services = () => {
     {
       name: "Chiller AC Services",
       description:
-        "Fast and reliable emergency AC repair services to get your system back in action.",
+        "rusted chiller AC repair and installation services in Dubai, ensuring reliable and efficient cooling for large-scale systems.",
       link: "/chiller-ac",
       image:
         "/main services/chillar-ac-reparing-and-installing-home-services.jpg",
@@ -52,7 +55,7 @@ const Services = () => {
     {
       name: "Cassette AC Services",
       description:
-        "Fast and reliable emergency AC repair services to get your system back in action.",
+        "Efficient cassette AC repair and installation services in Dubai, helping maintain a comfortable environment in both residential and commercial spaces.",
       link: "/cassette-ac",
       image:
         "/main services/cassete-ac-reparing-and-installing-home-services.jpg",
@@ -61,7 +64,7 @@ const Services = () => {
     {
       name: "VRF/VRV AC Services",
       description:
-        "Fast and reliable emergency AC repair services to get your system back in action.",
+        "Specialized VRF/VRV AC repair and installation services in Dubai, offering energy-efficient cooling for large buildings and commercial spaces.",
       link: "/vrf-vrv-ac",
       image: "/main services/vrf-ac-reparing-and-installing-home-services.jpg",
       callNowLink: "+1 234 567 893",
@@ -70,15 +73,15 @@ const Services = () => {
     {
       name: "Ice Machine Services",
       description:
-        "Fast and reliable emergency AC repair services to get your system back in action.",
-      link: "/ice-machine-services",
+        "Fast and dependable ice machine repair and installation in Dubai, ensuring your equipment operates at peak performance.",
+      link: "/ice-machine",
       image: "/main services/ice-ac-reparing-and-installing-home-services.jpg",
       callNowLink: "+1 234 567 893",
     },
     {
-      name: "Duct Cleaning & Repairing",
+      name: "Duct Cleaning",
       description:
-        "Fast and reliable emergency AC repair services to get your system back in action.",
+        "Affordable and thorough duct cleaning services in Dubai, ensuring your ventilation system is clear and your air stays fresh and clean.",
       link: "/duct-cleaning",
       image:
         "/main services/duct-cleaningac-reparing-and-installing-home-services (1).jpg",
@@ -87,7 +90,7 @@ const Services = () => {
     {
       name: "Smart Thermostat Installation",
       description:
-        "Fast and reliable emergency AC repair services to get your system back in action.",
+        " Reliable smart thermostat installation in Dubai, offering seamless integration for greater control and efficiency in your HVAC system.",
       link: "/thermostat-installation",
       image:
         "/main services/smart-thermostate-ac-reparing-and-installing-home-services.jpg",
@@ -120,9 +123,9 @@ const Services = () => {
 
   return (
     <section>
-      <h1 className="text-3xl text-white font-bold font-quicksand text-center mb-8 mt-6 ">
-        Our Services
-      </h1>
+      <h2 className="text-3xl text-white font-bold font-quicksand text-center mb-8 mt-6 ">
+        Our Air Conditioner Repairing & Installation Service
+      </h2>
       <div
         id="services"
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 p-4 "
@@ -135,6 +138,7 @@ const Services = () => {
               viewDetailLink={service.link}
               image={service.image}
               callNowLink={service.callNowLink}
+              hoverImg={service.hoverImg}
             />
           </div>
         ))}

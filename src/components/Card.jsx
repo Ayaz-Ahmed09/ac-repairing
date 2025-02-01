@@ -1,19 +1,32 @@
 "use client";
 import Link from "next/link";
+import { useState } from "react";
 
 // eslint-disable-next-line react/prop-types
-const Cards = ({ title, description, viewDetailLink, image, callNowLink }) => {
+const Cards = ({
+  title,
+  description,
+  viewDetailLink,
+  image,
+  callNowLink,
+  hoverImg,
+}) => {
   const handleCallNow = () => {
     window.location.href = `tel:${callNowLink}`;
   };
-
+  // const [img, setImg] = useState(image);
   return (
-    <div className="relative font-quicksand flex flex-col lg:flex-row p-6 bg-black text-white rounded-lg shadow-lg overflow-hidden max-w-full mx-auto h-full group">
+    <div
+      // onMouseEnter={() => setImg(hoverImg)}
+      // onMouseLeave={() => setImg(image)}
+      className="relative font-quicksand flex flex-col lg:flex-row p-6 bg-black text-white rounded-lg shadow-lg overflow-hidden max-w-full mx-auto h-full group"
+    >
       {/* Image Section */}
       <img
+        // src={img}
         src={image}
         alt={title}
-        loading="eager"
+        // loading="eager"
         className="w-full h-auto object-cover rounded-lg mb-4 lg:mb-0 lg:w-1/3 lg:mr-6"
       />
 
@@ -43,7 +56,7 @@ const Cards = ({ title, description, viewDetailLink, image, callNowLink }) => {
       </div>
 
       {/* Hover Overlay Effect */}
-      <div className="absolute inset-0 bg-gradient-to-t from-red-500 to-transparent opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-red-600 to-transparent opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 const ContactPage = () => {
   return (
     <main
-      className="relative w-full min-h-screen bg-cover bg-center text-white mt-16"
+      className="relative w-full min-h-screen bg-cover bg-center text-white mt-20"
       style={{
         backgroundImage: "url('/contact-us.jpeg')",
         backgroundSize: "cover",
@@ -17,7 +17,7 @@ const ContactPage = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 w-full max-w-5xl">
           {/* Address Card */}
-          <div className="bg-gray-900 bg-opacity-70 p-6 rounded-lg shadow-lg hover:shadow-red-600/30 hover:border-2 hover:border-red-600 transition-all">
+          <div className="bg-gray-900 bg-opacity-70 p-6 rounded-lg shadow-lg hover:shadow-red-600/30 hover:border-2 hover:border-red-600 transition-shadow">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="text-red-600 w-8 h-8 mb-4"
@@ -42,7 +42,7 @@ const ContactPage = () => {
           </div>
 
           {/* Phone Card */}
-          <div className="bg-gray-900 bg-opacity-70 p-6 rounded-lg shadow-lg hover:shadow-red-600/30 hover:border-2 hover:border-red-600 transition-all">
+          <div className="bg-gray-900 bg-opacity-70 p-6 rounded-lg shadow-lg hover:shadow-red-600/30 hover:border-2 hover:border-red-600 transition-shadow">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="text-red-600 w-8 h-8 mb-4"
@@ -63,7 +63,7 @@ const ContactPage = () => {
           </div>
 
           {/* Email Card */}
-          <div className="bg-gray-900 bg-opacity-70 p-6 rounded-lg shadow-lg hover:shadow-red-600/30 hover:border-2 hover:border-red-600 transition-all">
+          <div className="bg-gray-900 bg-opacity-70 p-6 rounded-lg shadow-lg hover:shadow-red-600/30 hover:border-2 hover:border-red-600 transition-shadow">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="text-red-600 w-8 h-8 mb-4"
@@ -86,7 +86,7 @@ const ContactPage = () => {
           </div>
 
           {/* WhatsApp Card */}
-          <div className="bg-gray-900 bg-opacity-70 p-6 rounded-lg shadow-lg hover:shadow-red-600/30 hover:border-2 hover:border-red-600 transition-all">
+          <div className="bg-gray-900 bg-opacity-70 p-6 rounded-lg shadow-lg hover:shadow-red-600/30 hover:border-2 hover:border-red-600 transition-shadow">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="text-red-600 w-8 h-8 mb-4"
