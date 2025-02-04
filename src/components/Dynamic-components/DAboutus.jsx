@@ -27,11 +27,7 @@ const DAboutSection = ({
       className="about-section py-20 px-4 md:px-10 flex items-center justify-center flex-col md:flex-row bg-[url('/footer.jpeg')] bg-cover bg-center"
     >
       {/* Left Side (Text) */}
-      <div
-        className={`w-full md:w-1/2 lg:ml-16 px-4 text-white md:text-left transform transition-all duration-1000 ease-in-out ${
-          inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-20"
-        }`}
-      >
+      <div className="w-full md:w-1/2 lg:ml-16 px-4 text-white md:text-left">
         <h2 className="text-3xl sm:text-4xl text-center font-bold mb-6">
           {title}
         </h2>

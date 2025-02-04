@@ -27,62 +27,62 @@ const page = () => {
       description:
         "Thorough cleaning and sanitization of ice machines to maintain hygiene, prevent contamination, and ensure safe ice production for your business.",
       image: "/ice-machine/ice machine cleaning.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Filter Replacement",
       description:
         "Timely replacement of water filters to improve water quality, enhance ice production, and extend the lifespan of your ice machine.",
       image: "/ice-machine/ice-mechine.png",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Compressor & Condenser Repair",
       description:
         "Expert repair and maintenance of compressors and condensers to restore cooling efficiency and prevent costly breakdowns.",
       image: "/ice-machine/compressor and coil ice machine.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Water Line & Drainage Maintenance",
       description:
         "Comprehensive maintenance of water lines and drainage systems to ensure proper water flow, prevent leaks, and avoid operational disruptions.",
       image: "/ice-machine/ice machine water leakage.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Air Filter Replacement",
       description:
         "Replacement of air filters to improve airflow, enhance machine efficiency, and maintain consistent ice production.",
       image: "/ice-machine/ice machine air filter.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Ice Production Issues",
       description:
         "Diagnosis and repair of issues affecting ice production, including low output, slow freezing, or irregular ice size, to restore optimal performance.",
       image: "/ice-machine/ice production.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Electrical & Sensor Repairs",
       description:
         "Repair and calibration of electrical components and sensors to ensure accurate operation and prevent malfunctions.",
       image: "/ice-machine/ice machine electric.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Preventive Maintenance Contracts",
       description:
         "Customized maintenance plans to keep your ice machine in top condition, reduce downtime, and extend its lifespan through regular inspections and servicing.",
       image: "/ice-machine/contracts.png",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
   ];
   const aboutData = {
-    title: "About Our Ice Machine Services",
+    title: "Professional Ice Machine Maintenance Services",
     description1:
-      "We are experts in Cassette AC services, offering installation, maintenance, and repair solutions.",
+      "Your business depends on a reliable ice machine. Our professional team provides expert repair services, using premium parts and industry best practices. We specialize in fixing problems like poor ice production, water leaks, and unusual noises, resolving them quickly and effectively.",
     description2:
       "Our skilled team ensures high-quality service, timely completion, and customer satisfaction.",
     icons: [
@@ -93,24 +93,24 @@ const page = () => {
     image: "/ice-machine/about-us-ice-maker.jpg", // Path to image
   };
   const whyChooseUsData = {
-    heading: "Why Choose Us?",
+    heading: "Why Choose Us For Ice Machine Repair Services?",
     description:
-      "We offer the best quality services, with customer satisfaction being our top priority.",
+      "Keep your business cool and efficient with our professional ice machine repair services in Dubai. We only use premium, genuine parts to ensure reliable performance and extended longevity. Our services are backed by a warranty for peace of mind.",
     iconDescriptions: [
-      "Quality Workmanship",
-      "Affordable Pricing",
+      "Our skilled technicians are trained to handle all types of ice machines with precision.",
+      "Transparent, competitive rates with no hidden charges.",
       "Citywide Service",
-      "Customer-Focused",
+      "Tailored solutions to meet the specific needs of your business.",
       "Quick Response",
       "Expert Technicians",
-      "Fast Delivery",
-      "Reliable Service",
+      "Fast and reliable emergency service to get your ice machine back up and running quickly.",
+      "Our services come with a warranty for your peace of mind.",
     ],
   };
   const homeContent = {
-    heading: "Ice Machine AC Repair & Installation Service in Dubai",
+    heading: "Expert Ice Machine Repair Services in Dubai",
     description:
-      "For the ultimate in comfort and style, a well-functioning ice machine system is a must in Dubai’s heat. Whether you need repairs or a new installation, our skilled technicians are here to provide fast, reliable service, ensuring your space remains cool throughout the year.",
+      "In the fast-paced environment of Dubai, a reliable ice machine is crucial for many businesses. Whether it's a restaurant, hotel, or any other establishment that requires ice, a malfunctioning machine can significantly impact operations. Our skilled technicians are here to provide fast and professional ice machine repair services, ensuring your business stays running smoothly.",
     bulletPoints: [
       "Licensed Company",
       "Affordable Pricing",
@@ -120,6 +120,7 @@ const page = () => {
   };
   return (
     <div className="overflow-x-hidden">
+      <title>Professional Ice Machine Repair Service in Dubai</title>
       {/* Hero Section */}
       <DHeroSection
         image="/ice-machine/ice making machine banner (1).png"

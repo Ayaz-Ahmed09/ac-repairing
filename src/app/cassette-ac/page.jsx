@@ -26,76 +26,76 @@ const page = () => {
       description:
         "Identifying and fixing problems like insufficient cooling, warm air, or inconsistent temperature due to issues with the compressor, refrigerant, or electrical components.",
       image: "/cassette-ac/cassete ac cooling issues.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Drip Tray & Condensation Check",
       description: "Inspecting and cleaning drip trays to prevent water leaks.",
       image: "/cassette-ac/deep-tray.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Refrigerant Level Check",
       description:
         "Ensuring proper refrigerant levels for efficient performance.",
       image: "/cassette-ac/gas-check.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Component Repairs",
       description:
         "Repairing and replacing faulty AC components for reliability.",
       image: "/cassette-ac/compounent.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Air Filter Replacement",
       description:
         "Cleaning or replacing clogged filters to improve airflow, efficiency, and air quality.",
       image: "/cassette-ac/chiller ac air filter replacement.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Drain Line Clearing",
       description:
         "Ensuring proper water drainage by inspecting and clearing any blockages in the drain lines to prevent water leakage and mold growth.",
       image: "/chiller-ac/performance.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Compressor Repair and Replacement",
       description:
         "Fixing or replacing the compressor if it’s not functioning correctly, as it is critical to the AC’s cooling process.",
       image: "/cassette-ac/cassete ac compressor repair (1).jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Leak & Refrigerant Issues",
       description:
         "Identifying refrigerant leaks and refilling the system to ensure optimal cooling performance.",
       image: "/cassette-ac/leaks.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Coil Cleaning and Maintenance",
       description:
         "Cleaning the evaporator and condenser coils to prevent dirt buildup, which can reduce cooling efficiency and cause system damage.",
       image: "/cassette-ac/cassete ac coil cleaning.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Electrical Component Repairs",
       description:
         " Inspecting and repairing electrical parts like wiring, circuit boards, and thermostats to maintain safe and reliable operation.",
       image: "/cassette-ac/cassete ac Unit Reinstallation and Realignment.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Thermostat Calibration and Repair",
       description:
         " Adjusting or repairing the thermostat to ensure accurate temperature regulation and efficient operation.",
       image: "/cassette-ac/cassete ac thermostate repair.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
   ];
 

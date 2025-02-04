@@ -33,9 +33,9 @@ const DWhyChooseUs = ({ heading, description, iconDescriptions }) => {
   return (
     <section className="bg-black text-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-red-600 sm:text-4xl">
+        <h3 className="text-3xl font-bold text-red-600 sm:text-4xl">
           {heading}
-        </h2>
+        </h3>
         <p className="mt-4 text-lg text-white sm:text-xl">{description}</p>
 
         <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">

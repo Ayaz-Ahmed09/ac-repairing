@@ -13,7 +13,7 @@ const Button = ({ name }) => {
   }, []);
 
   const handleCall = () => {
-    window.location.href = "tel:+971569096124";
+    window.location.href = "tel:+971543888004";
   };
 
   return (

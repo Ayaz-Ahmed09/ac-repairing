@@ -1,19 +1,13 @@
 "use client";
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCheckCircle,
-  faShieldAlt,
-  faClock,
-} from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 
 const AboutSection = () => {
-  const [inViewRef, inView] = useInView({
-    triggerOnce: false,
-    threshold: 0.5,
-  });
+  // const [inViewRef, inView] = useInView({
+  //   triggerOnce: false,
+  //   threshold: 0.5,
+  // });
 
   return (
     // <section
@@ -95,7 +89,7 @@ const AboutSection = () => {
     //   </div>
     // </section>
     <section
-      ref={inViewRef}
+      // ref={inViewRef}
       className="about-section py-16 px-4 md:px-10 flex flex-col lg:flex-row items-center justify-center relative bg-black"
     >
       {/* Background */}
@@ -108,13 +102,9 @@ const AboutSection = () => {
       ></div>
 
       {/* Left Side (Text) */}
-      <div
-        className={`w-full lg:w-1/2 z-10 px-4 text-center lg:text-left transform transition-all duration-1000 ease-in-out ${
-          inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-20"
-        }`}
-      >
+      <div className="w-full lg:w-1/2 z-10 px-4 text-center lg:text-left opacity-100 translate-x-0 transition-all duration-1000 ease-in-out">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white">
-          Top-Notch Air Cond Maintenace & Installation Services
+          Top-Notch Air Cond Maintenance & Installation Services
         </h2>
         <p className="text-base sm:text-lg lg:text-xl text-white mb-4 leading-relaxed">
           We understand how frustrating it can be when your air conditioner
@@ -163,11 +153,7 @@ const AboutSection = () => {
       </div>
 
       {/* Right Side (Image) */}
-      <div
-        className={`w-full lg:w-1/2 z-10 mt-8 lg:mt-0 transform transition-all duration-1000 ease-in-out ${
-          inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-        }`}
-      >
+      <div className="w-full lg:w-1/2 z-10 mt-8 lg:mt-0 opacity-100 translate-y-0 transition-all duration-1000 ease-in-out">
         <Image
           src="/about us.jpg"
           alt="About Us Image"

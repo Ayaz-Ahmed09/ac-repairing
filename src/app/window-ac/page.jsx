@@ -27,42 +27,42 @@ const page = () => {
       description:
         "Fast and efficient compressor repair services for window AC units, ensuring optimal cooling and system longevity in your home or office.",
       image: "/window-ac/filter.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Condenser Coil Cleaning",
       description:
         "Professional cleaning of condenser coils for window AC units, improving cooling efficiency and extending system lifespan.",
       image: "/window-ac/coil.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Drainage Check",
       description:
         "Checking your window AC’s drainage system prevents water leaks, ensures proper moisture removal, and maintains optimal cooling performance",
       image: "/window-ac/window ac water leakage.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Seal Inspection",
       description:
         "Inspecting the seal around your window AC ensures there are no gaps, preventing cool air from escaping and improving energy efficiency.",
       image: "/window-ac/window ac seal.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Cooling Issues",
       description:
         "If your window AC isn't cooling properly, it could be due to a dirty filter, low refrigerant levels, or a faulty compressor, requiring prompt inspection and repair.",
       image: "/window-ac/window ac cooling isssues.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Fan Issues",
       description:
         "Fan issues in your window AC, such as unusual noises or lack of airflow, could be caused by a clogged fan, motor problems, or electrical malfunctions, and should be addressed by a professional.",
       image: "/window-ac/window ac fan issues.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
 
     {
@@ -70,7 +70,7 @@ const page = () => {
       description:
         "Quick and effective detection and repair of refrigerant leaks, ensuring optimal cooling efficiency.",
       image: "/window-ac/window ac low refrigent.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
   ];
   const whyChooseUsData = {

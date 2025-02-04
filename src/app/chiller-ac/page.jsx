@@ -27,68 +27,68 @@ const page = () => {
       description:
         "Offering installation of new chiller systems or replacing outdated models with more efficient units.",
       image: "/chiller-ac/cleaning.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Check Refrigerant Levels",
       description:
         " Identifying leaks in the refrigerant lines and recharging the system with the right type and amount of refrigerant.",
       image: "/chiller-ac/chiller ac refrigent.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Refrigerant Leak Repair",
       description: "Detecting and repairing leaks to prevent refrigerant loss.",
       image: "/chiller-ac/leak-check.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Compressor Replacement or Repair",
       description:
         "Addressing issues with the compressor, which is crucial for cooling, to ensure proper functioning.",
       image: "/chiller-ac/chiller ac compressor.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Condenser and Evaporator Coil Cleaning",
       description:
         " Cleaning coils to ensure efficient heat exchange and prevent the buildup of dirt or debris that can reduce performance.",
       image: "/chiller-ac/chiller ac coil.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Water Treatment & Filtration",
       description:
         " Ensuring that the water used in the system is properly treated and filtered to prevent scaling or corrosion.",
       image: "/chiller-ac/chiller ac water treatment.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Replacing Components",
       description:
         "Upgrading or replacing faulty components for better efficiency.",
       image: "/chiller-ac/chiller ac components replacing.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Retrofit for Improved Performance",
       description:
         "Testing the overall system to identify performance issues and optimizing settings for maximum efficiency.",
       image: "/chiller-ac/chiller ac testing and optimization.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Pump & Valve Maintenance",
       description:
         " Inspecting and repairing pumps, expansion valves, and other components that regulate the flow of water or refrigerant within the system.",
       image: "/chiller-ac/chiller ac pump and valve.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Load & Capacity Checks",
       description: "Ensuring the chiller meets cooling demands efficiently.",
       image: "/chiller-ac/chiller ac load check.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
   ];
   const homeContent = {
@@ -126,7 +126,7 @@ const page = () => {
       "Customer-Focused",
       "Quick Response",
       "Expert Technicians",
-      "Fast Delivery",
+      "Emergancy service",
       "Reliable Service",
     ],
   };

@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
 
 // eslint-disable-next-line react/prop-types
 const Cards = ({
@@ -37,14 +36,16 @@ const Cards = ({
 
         <div className="flex flex-col sm:flex-row justify-between font-quicksand items-center space-y-3 sm:space-y-0">
           {/* Conditional Rendering for View Details */}
-          {viewDetailLink ? (
+          {viewDetailLink && (
             <Link
               href={viewDetailLink}
+              // target="_blank"
+              // rel="noopener noreferrer"
               className="text-red-600 hover:underline hover:text-white w-full sm:w-auto text-center sm:text-left"
             >
               View Details
             </Link>
-          ) : null}
+          )}
           {/* Call Now Button */}
           <button
             onClick={handleCallNow}

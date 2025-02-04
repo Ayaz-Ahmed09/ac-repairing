@@ -11,6 +11,7 @@ import {
 import DWhyChooseUs from "@/components/Dynamic-components/DWhyChooseUs";
 import ContactUs from "@/components/ContactUs";
 import DynamicSection from "@/components/DynamicSection";
+import Testimonial from "@/components/Testimonial";
 
 const page = () => {
   const ThermoServices = [
@@ -28,7 +29,7 @@ const page = () => {
         "Expert installation and configuration of Ecobee smart thermostats. Optimize your home's energy efficiency with room sensors and smart scheduling features.",
       // link: "/split-ac/repair",
       image: "/thermo/smart thermostate ecobee.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "HoneyWell Home (Resideo)",
@@ -36,7 +37,7 @@ const page = () => {
         "Professional installation and support for HoneyWell Home smart thermostats. Experience reliable performance, intuitive controls, and energy-saving features.",
       // link: "/split-ac/repair",
       image: "/thermo/smart thermostate honeywell.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Mysa",
@@ -44,7 +45,7 @@ const page = () => {
         "Specialized installation of Mysa smart thermostats for high-voltage systems. Enjoy precise temperature control and energy efficiency for your heating and cooling needs.",
       // link: "/split-ac/repair",
       image: "/thermo/smart thermostate mysa.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Tado",
@@ -52,7 +53,7 @@ const page = () => {
         "Professional setup of Tado smart thermostats. Enhance your home's comfort with geofencing, smart scheduling, and energy-saving features.",
       // link: "/split-ac/repair",
       image: "/thermo/smart thermostate tado.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Lux",
@@ -60,7 +61,7 @@ const page = () => {
         "Expert installation of Lux smart thermostats. Enjoy simple, reliable, and energy-efficient temperature control for your home.",
       // link: "/split-ac/repair",
       image: "/thermo/smart thermostate lux.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
   ];
 
@@ -88,7 +89,7 @@ const page = () => {
       "Customer-Focused",
       "Quick Response",
       "Expert Technicians",
-      "Fast Delivery",
+      "Emergancy service",
       "Reliable Service",
     ],
   };
@@ -157,6 +158,7 @@ const page = () => {
         description={whyChooseUsData.description}
         iconDescriptions={whyChooseUsData.iconDescriptions}
       />
+      <Testimonial page="thermopage" />
       <ContactUs />
     </div>
   );

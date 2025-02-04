@@ -29,7 +29,7 @@ const splitpage = () => {
         "Fast and efficient compressor repair services in Dubai, getting your AC back to optimal performance with expert care.",
       // link: "/split-ac/repair",
       image: "/split-ac/split ac compressor repair.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Condenser Coil Cleaning",
@@ -37,7 +37,7 @@ const splitpage = () => {
         "Thorough condenser coil cleaning in Dubai, removing dirt and debris for optimal AC performance and reduced energy costs.",
       // link: "/split-ac/repair",
       image: "/split-ac/Split ac condensor coils cleaning.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Thermostat Replacement",
@@ -45,7 +45,7 @@ const splitpage = () => {
         "Fast and efficient thermostat replacement in Dubai, providing you with the latest technology for optimal climate control.",
       // link: "/split-ac/repair",
       image: "/split-ac/Split ac thermostate replacement.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Gas Leak Check & Recharge",
@@ -53,7 +53,7 @@ const splitpage = () => {
         "Quick and effective gas leak check and recharge services in Dubai, keeping your AC running at its best with optimal refrigerant levels.",
       // link: "/split-ac/repair",
       image: "/split-ac/Split ac gas.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Air Quality Improvement",
@@ -61,7 +61,7 @@ const splitpage = () => {
         "Split AC air quality enhancement in Dubai, offering cleaner air and a healthier atmosphere for your home or off.",
       // link: "/split-ac/repair",
       image: "/split-ac/Split ac air quality.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Evaporator Coil Cleaning",
@@ -69,7 +69,7 @@ const splitpage = () => {
         "Efficient evaporator coil cleaning services in Dubai, helping your AC run smoothly and reducing energy consumption.",
       // link: "/split-ac/repair",
       image: "/split-ac/Split ac evaporator cleaning.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Fan Motor Repair & Replacement",
@@ -77,7 +77,7 @@ const splitpage = () => {
         "Split Ac's fan motor repair and replacement in Dubai, delivering long-lasting solutions to keep your AC functioning properly.",
       // link: "/split-ac/repair",
       image: "/split-ac/FanMotorrepair.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Sensor Repair and Replacement",
@@ -85,7 +85,7 @@ const splitpage = () => {
         "Split ac sensor repair and replacement services in Dubai, optimizing your AC’s performance with precise temperature control.",
       // link: "/split-ac/repair",
       image: "/split-ac/sensorsrepair.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
   ];
 

@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import Cards from "./Card";
 import "./animations.css";
 const Services = () => {
@@ -12,7 +12,7 @@ const Services = () => {
       image: "/main services/split-ac.jpeg",
       hoverImg: "/split.png",
       // hoverImg: "/testingimg.webp",
-      callNowLink: "+1 234 567 890",
+      callNowLink: "+971543888004",
     },
     {
       name: "Central AC Services",
@@ -22,7 +22,7 @@ const Services = () => {
       image:
         "/main services/central-ac-reparing-and-installing-home-services.jpg",
       hoverImg: "/central2.png",
-      callNowLink: "+1 234 567 892",
+      callNowLink: "+971543888004",
     },
     {
       name: "Window AC Services",
@@ -31,7 +31,7 @@ const Services = () => {
       link: "/window-ac",
       image:
         "/main services/window-ac-reparing-and-installing-home-services-.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
 
     {
@@ -41,7 +41,7 @@ const Services = () => {
       link: "/portable-ac",
       image:
         "/main services/portable-ac-reparing-and-installing-home-services.jpg",
-      callNowLink: "+1 234 567 893",
+      callNowLink: "+971543888004",
     },
     {
       name: "Chiller AC Services",
@@ -50,7 +50,7 @@ const Services = () => {
       link: "/chiller-ac",
       image:
         "/main services/chillar-ac-reparing-and-installing-home-services.jpg",
-      callNowLink: "+1 234 567 893",
+      callNowLink: "+971543888004",
     },
     {
       name: "Cassette AC Services",
@@ -59,7 +59,7 @@ const Services = () => {
       link: "/cassette-ac",
       image:
         "/main services/cassete-ac-reparing-and-installing-home-services.jpg",
-      callNowLink: "+1 234 567 893",
+      callNowLink: "+971543888004",
     },
     {
       name: "VRF/VRV AC Services",
@@ -67,7 +67,7 @@ const Services = () => {
         "Specialized VRF/VRV AC repair and installation services in Dubai, offering energy-efficient cooling for large buildings and commercial spaces.",
       link: "/vrf-vrv-ac",
       image: "/main services/vrf-ac-reparing-and-installing-home-services.jpg",
-      callNowLink: "+1 234 567 893",
+      callNowLink: "+971543888004",
     },
 
     {
@@ -76,7 +76,7 @@ const Services = () => {
         "Fast and dependable ice machine repair and installation in Dubai, ensuring your equipment operates at peak performance.",
       link: "/ice-machine",
       image: "/main services/ice-ac-reparing-and-installing-home-services.jpg",
-      callNowLink: "+1 234 567 893",
+      callNowLink: "+971543888004",
     },
     {
       name: "Duct Cleaning",
@@ -85,7 +85,7 @@ const Services = () => {
       link: "/duct-cleaning",
       image:
         "/main services/duct-cleaningac-reparing-and-installing-home-services (1).jpg",
-      callNowLink: "+1 234 567 893",
+      callNowLink: "+971543888004",
     },
     {
       name: "Smart Thermostat Installation",
@@ -94,32 +94,32 @@ const Services = () => {
       link: "/thermostat-installation",
       image:
         "/main services/smart-thermostate-ac-reparing-and-installing-home-services.jpg",
-      callNowLink: "+1 234 567 893",
+      callNowLink: "+971543888004",
     },
   ];
 
-  useEffect(() => {
-    const cards = document.querySelectorAll(".service-card");
+  // useEffect(() => {
+  //   const cards = document.querySelectorAll(".service-card");
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("slide-in-right");
-          }
-        });
-      },
-      {
-        threshold: 0.5, // Trigger when 50% of the element is in view
-      }
-    );
+  //   const observer = new IntersectionObserver(
+  //     (entries) => {
+  //       entries.forEach((entry) => {
+  //         if (entry.isIntersecting) {
+  //           entry.target.classList.add("slide-in-right");
+  //         }
+  //       });
+  //     },
+  //     {
+  //       threshold: 0.5, // Trigger when 50% of the element is in view
+  //     }
+  //   );
 
-    cards.forEach((card) => observer.observe(card));
+  //   cards.forEach((card) => observer.observe(card));
 
-    return () => {
-      cards.forEach((card) => observer.unobserve(card));
-    };
-  }, []);
+  //   return () => {
+  //     cards.forEach((card) => observer.unobserve(card));
+  //   };
+  // }, []);
 
   return (
     <section>

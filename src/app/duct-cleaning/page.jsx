@@ -18,7 +18,7 @@ const page = () => {
     {
       name: "Cleaning",
       description:
-        "Breathe easy with our professional duct cleaning service, designed to improve air quality and the efficiency of your HVAC system.",
+        "Thorough cleaning of your ductwork system to remove dust, allergens, mold, and other contaminants, improving indoor air quality.",
       // link: "/split-ac/installation",
       image: "/duct/duct ac cleaning service.jpg",
       callNowLink: "+1 234 567 890",
@@ -26,33 +26,33 @@ const page = () => {
     {
       name: "Inspection",
       description:
-        "Uncover hidden issues with our expert duct inspection service, ensuring your HVAC system runs smoothly and efficiently.",
+        " Comprehensive inspection of your ductwork system to identify any potential issues, such as leaks or blockages.",
       // link: "/split-ac/repair",
       image: "/duct/duct inspection.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Sanitization",
       description:
-        "Experience fresher air and improved system efficiency with our expert duct sanitization, eliminating harmful contaminants from your HVAC system",
+        "Specialized cleaning and sanitization of ductwork to eliminate bacteria and other harmful microorganisms.",
       // link: "/split-ac/repair",
       image: "/duct/duct senatization.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Leakage repair",
       description:
-        "Restore your comfort with expert duct repair services that eliminate leaks, ensuring your HVAC system runs efficiently and effectively",
+        "Sealing of any leaks or gaps in your ductwork system to improve energy efficiency and prevent air loss.",
       // link: "/split-ac/repair",
       image: "/duct/duct water leakage repair.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
   ];
 
   const aboutData = {
-    title: "About Our Duct Cleaning AC Services",
+    title: " Professional Duct Cleaning Services in Dubai",
     description1:
-      "We are experts in Chiller AC services, offering installation, maintenance, and repair solutions.",
+      "We know how crucial clean air is for your health. Our skilled team offers high-quality duct cleaning services, utilizing advanced equipment and methods to remove contaminants and ensure your air is fresh and healthy.",
     description2:
       "Our skilled team ensures high-quality service, timely completion, and customer satisfaction.",
     icons: [
@@ -63,24 +63,24 @@ const page = () => {
     image: "/duct-cleaning/about us.jpg", // Path to image
   };
   const whyChooseUsData = {
-    heading: "Why Choose Us?",
+    heading: "Why Choose Us For Duct Cleaning Services?",
     description:
-      "We offer the best quality services, with customer satisfaction being our top priority.",
+      "Breathe easier with our professional duct cleaning services in Dubai. We use specialized equipment and eco-friendly cleaning solutions to ensure thorough cleaning and removal of contaminants.",
     iconDescriptions: [
-      "Quality Workmanship",
-      "Affordable Pricing",
+      "Our skilled technicians are trained and equipped to handle all types of duct cleaning projects.",
+      "Transparent and competitive rates with no hidden charges.",
       "Citywide Service",
-      "Customer-Focused",
+      "Our services come with a warranty for your peace of mind.",
       "Quick Response",
-      "Expert Technicians",
-      "Fast Delivery",
-      "Reliable Service",
+      "We focus on thoroughness and attention to detail to ensure a clean and healthy indoor environment.",
+      "Emergancy service",
+      "We use safe and environmentally friendly cleaning solutions.",
     ],
   };
   const homeContent = {
-    heading: "Duct Cleaning Services in Dubai",
+    heading: "Expert Duct Cleaning Services in Dubai",
     description:
-      "Breathe easy with our professional duct cleaning services in Dubai. Our experienced team ensures your air ducts are thoroughly cleaned, improving air quality and efficiency while reducing energy costs. Keep your home or office environment healthy and comfortable with our top-notch duct cleaning solutions.",
+      "Maintaining clean air ducts is essential in Dubai's dusty environment. Dust, mold, and allergens can clog your ducts, impacting the air you breathe. Our skilled technicians offer professional cleaning services to ensure healthier air for your family.",
     bulletPoints: [
       "Licensed Company",
       "Affordable Pricing",
@@ -91,9 +91,10 @@ const page = () => {
 
   return (
     <div className="overflow-x-hidden">
+      <title>Professional Duct Cleaning Services in Dubai</title>
       {/* Hero Section */}
       <DHeroSection
-        image="/duct-cleaning/ac duct banner.png"
+        image="/duct/ac duct banner.png"
         heading="Best Duct Services"
         subheading="We provide the best solutions for your needs."
         buttonText="Contact Us"

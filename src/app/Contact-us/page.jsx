@@ -54,10 +54,10 @@ const ContactPage = () => {
 
             <h3 className="text-xl font-semibold mb-2">Call Us Now</h3>
             <a
-              href="tel:+971569096124"
+              href="tel:+971543888004"
               className="text-gray-300 hover:underline"
             >
-              +971-569096124
+              +971543888004
             </a>
             <p className="text-gray-400 text-sm mt-1">Available 24 Hours</p>
           </div>
@@ -98,7 +98,7 @@ const ContactPage = () => {
 
             <h3 className="text-xl font-semibold mb-2">WhatsApp</h3>
             <a
-              href="https://wa.me/971569096124"
+              href="https://wa.me/971543888004"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:underline"

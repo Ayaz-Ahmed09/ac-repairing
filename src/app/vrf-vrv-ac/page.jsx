@@ -33,81 +33,81 @@ const page = () => {
       name: "Cleaning Indoor & Outdoor Units",
       description: "Thorough cleaning of VRF units for optimal performance.",
       image: "/vrf-vrv/cleaning-vrf.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Refrigerant Leak Repair",
       description:
         "Detecting and repairing refrigerant leaks, ensuring your system is properly charged to restore optimal cooling performance and prevent future damage.",
       image: "/vrf-vrv/leak.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Compressor & Fan Repair",
       description:
         "Diagnosing and repairing compressor issues that may result in cooling failure or poor system efficiency, or replacing the compressor when necessary.",
       image: "/vrf-vrv/fan-motor.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "System Expansion",
       description: "Adding new units to expand your VRF system capacity.",
       image: "/vrf-vrv/expension.png",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Error Code Interpretation",
       description: "Diagnosing and troubleshooting VRF system error codes.",
       image: "/vrf-vrv/error-check.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Refrigerant Loss or Compressor Failure",
       description: "Fixing refrigerant loss issues and compressor failures.",
       image: "/vrf-vrv/Refrigerant Loss or Compressor Failure.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Faulty Wiring and Electrical Repairs",
       description:
         "Troubleshooting and repairing any electrical issues such as faulty wiring, circuit boards, or connections that could cause system failures or malfunctions.",
       image: "/vrf-vrv/load.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Sensor and Thermostat Repairs",
       description:
         "Fixing or replacing malfunctioning temperature sensors and thermostats to ensure precise temperature regulation and system efficiency.",
       image: "/vrf-vrv/vrf-vrv sensors and thermostate.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Fan Coil Unit Troubleshooting",
       description:
         "Addressing problems with individual fan coil units, such as poor airflow, unusual noises, or malfunctioning components that affect comfort in different areas of the building.",
       image: "/vrf-vrv/1738399702467.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Control Panel and System Reset",
       description:
         "Resolving issues with the control panel, including error codes, system lockouts, or improper settings that prevent the VRV/VRF system from operating correctly.",
       image: "/vrf-vrv/24hr.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Drainage System Check and Repair",
       description:
         "Inspecting and repairing drainage lines to ensure proper water flow and prevent leaks or mold buildup in the system.",
       image: "/vrf-vrv/water.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
     {
       name: "Airflow and Ductwork Inspection",
       description:
         "Ensuring proper airflow and inspecting ducts for blockages, leaks, or damage that may impair the system’s efficiency.",
       image: "/vrf-vrv/airflow.jpg",
-      callNowLink: "+971569096124",
+      callNowLink: "+971543888004",
     },
   ];
   const whyChooseUsData = {
