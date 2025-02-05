@@ -117,9 +117,9 @@ const page = () => {
     iconDescriptions: [
       "Our skilled technicians are equipped with the training and expertise to handle all kinds of VRF/VRV AC systems with accuracy",
       "We offer honest, competitive pricing with no hidden fees or surprises.",
-      "Citywide Service",
+      "Providing fast and reliable AC services across the entire city.",
       "We focus on detail and excellence to ensure your VRF/VRV AC operates at its highest potential.",
-      " Get fast, dependable emergency service to restore your VRF/VRV AC quickly, no matter the time.",
+      "Get fast, dependable emergency service to restore your VRF/VRV AC quickly, no matter the time.",
       "We back our services with a warranty, giving you confidence in the quality and longevity of our work.",
       "Our solutions are tailored to meet your needs, ensuring your utmost comfort and satisfaction.",
       "We use only robust, premium-quality parts that are specifically designed for VRF/VRV AC systems.",
@@ -146,7 +146,7 @@ const page = () => {
       "Licensed Company",
       "Affordable Pricing",
       "Quality Work",
-      "24/7 Cassette Ac Service",
+      "24/7 Vrf/vrv Ac Service",
     ],
   };
   return (

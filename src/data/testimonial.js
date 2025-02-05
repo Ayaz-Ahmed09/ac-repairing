@@ -112,7 +112,7 @@ const testimonialsData = {
       rating: 5,
     },
   ],
-  cassettepage: [
+  Cassettepage: [
     {
       image: "/r10.png",
       name: "Rashid Al-Fayed",

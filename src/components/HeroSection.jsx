@@ -10,25 +10,26 @@ const HeroSection = () => {
           src="/AC reparing and installing services main.png" // Replace with your image path
           alt="AC repairing and installing services"
           width={800} // Larger width for bigger screens
-          height={500} // Adjust height as needed
+          height={600} // Adjust height as needed
           className="w-full h-auto  rounded-lg"
           priority
+          loading="eager"
         />
       </div>
 
       {/* Right Side - Text and Button */}
       <div className="w-full sm:w-1/2 h-full flex flex-col items-center lg:items-center justify-center text-center lg:text-left px-4 sm:px-8 mt-4 sm:mt-0">
-        <div>
-          <p className="text-3xl sm:text-4xl md:text-4xl font-bold mb-4">
-            Welcome to Our Website!
+        <div className="flex flex-col items-center justify-center">
+          <p className="text-3xl sm:text-4xl md:text-4xl text-center font-bold mb-4">
+            Welcome to <span className="text-red-600">Supreme</span> AC
           </p>
-          <p className="text-base sm:text-lg md:text-2xl mb-8">
-            Your journey starts here
+          <p className="text-base sm:text-lg md:text-2xl md:text-center mb-8">
+            Professional AC Repair, Fast Service & Affordable Prices.
           </p>
           {/* Optional Button */}
           <Link
             href="#services"
-            className="bg-red-600 text-white py-2 px-6 rounded-full text-lg font-medium hover:bg-red-800 transition duration-300"
+            className="bg-red-600 text-white py-2 px-6 rounded-full  text-lg font-medium hover:bg-red-800 transition duration-300"
           >
             Explore Services
           </Link>

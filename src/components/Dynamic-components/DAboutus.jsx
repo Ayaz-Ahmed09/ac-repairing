@@ -28,7 +28,7 @@ const DAboutSection = ({
     >
       {/* Left Side (Text) */}
       <div className="w-full md:w-1/2 lg:ml-16 px-4 text-white md:text-left">
-        <h2 className="text-3xl sm:text-4xl text-center font-bold mb-6">
+        <h2 className="text-3xl sm:text-4xl text-center text-red-600 font-bold mb-6">
           {title}
         </h2>
         <p className="text-lg text-center sm:text-xl mb-4">{description1}</p>

@@ -17,7 +17,8 @@ const HeroSection = ({
           width={500} // Adjust as needed
           height={500} // Adjust as needed
           className="w-full h-auto max-w-[500px] sm:max-w-full object-contain rounded-lg"
-          priority // Ensures fast loading for above-the-fold images
+          priority
+          loading="eager"
         />
       </div>
 

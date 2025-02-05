@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa"; // Importing the icons
 
 const ContactUs = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -22,6 +23,29 @@ const ContactUs = () => {
         <h3 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-red-600">
           Contact Us
         </h3>
+
+        {/* Cards for Contact Number and Address */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
+          <div className="bg-red-600/30 p-8 rounded-lg shadow-lg text-center">
+            <h4 className="text-xl font-semibold text-white mb-4">
+              <FaPhoneAlt className="inline-block mr-2 text-white" /> Call Us
+            </h4>
+            {/* <p className="text-lg text-white">
+              For immediate assistance, call us at:
+            </p> */}
+            <p className="text-2xl font-bold text-white">+971543888004</p>
+          </div>
+          <div className="bg-red-600/30 p-8 rounded-lg shadow-lg text-center">
+            <h4 className="text-xl font-semibold text-white mb-4">
+              <FaMapMarkerAlt className="inline-block mr-2 text-white" /> Visit
+              Us
+            </h4>
+            {/* <p className="text-lg text-white">Our office is located at:</p> */}
+            <p className="text-2xl font-bold text-white">
+              WHP2-Block-A Commercial, Dubai
+            </p>
+          </div>
+        </div>
 
         {/* Show form only if not submitted */}
         {!isSubmitted ? (

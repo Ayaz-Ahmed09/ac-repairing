@@ -2,13 +2,11 @@ import React from "react";
 import DHeroSection from "@/components/Dynamic-components/DHeroSection";
 import DServices from "@/components/Dynamic-components/DServices";
 import DAboutSection from "@/components/Dynamic-components/DAboutus";
-import CounterCard from "@/components/sub-components/CounterCard"; // Import the Dynamic About Section
+import CounterCard from "@/components/sub-components/CounterCard";
 import {
   faCheckCircle,
   faShieldAlt,
   faClock,
-
-  // faShieldAlt,
 } from "@fortawesome/free-solid-svg-icons"; // Import icons
 import DWhyChooseUs from "@/components/Dynamic-components/DWhyChooseUs";
 import ContactUs from "@/components/ContactUs";
@@ -95,18 +93,17 @@ const page = () => {
     image: "/central-ac/central-ac-about-us.jpg", // Path to image
   };
   const whyChooseUsData = {
+    heading: "Why Choose Us For Central AC Services",
     description:
-      "Keep your home or office cool in Dubai with our skilled central AC repair and installation services. We use only top-quality, genuine parts to ensure seamless operation and lasting results. With a warranty on our services, you can trust us for reliable and effective cooling solutions.?",
-    heading:
-      "We offer the best quality services, with customer satisfaction being our top priority.",
+      "Keep your home or office cool in Dubai with our skilled central AC repair and installation services. We use only top-quality, genuine parts to ensure seamless operation and lasting results. With a warranty on our services, you can trust us for reliable and effective cooling solutions.  ",
     iconDescriptions: [
       "Our expert technicians are trained to handle all brands central AC systems with precision",
       " Affordable rates with no hidden charges, making our services accessible to all.",
       "Quick and efficient service to ensure your AC is up and running in no time",
       "Tailored solutions to meet the unique cooling needs of your home or office.",
       "ast and reliable emergency services to get your central AC back up and running",
-      "Expert Technicians",
-      "Emergancy service",
+      "Our team consists of highly skilled and certified technicians with years of experience in AC repair",
+      "Available 24/7 for fast and reliable AC repairs when you need them the most.",
       "Our services come with reliable warranty coverage for your peace of mind",
     ],
   };
@@ -118,7 +115,7 @@ const page = () => {
       "Licensed Company",
       "Affordable Pricing",
       "Quality Work",
-      "24-Hour AC Service",
+      "24-Hour Central AC Service",
     ],
   };
   return (

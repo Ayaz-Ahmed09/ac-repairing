@@ -69,16 +69,16 @@ const page = () => {
     iconDescriptions: [
       "Our skilled technicians are trained and equipped to handle all types of duct cleaning projects.",
       "Transparent and competitive rates with no hidden charges.",
-      "Citywide Service",
+      "Providing reliable duct cleaning services across the city, ensuring clean air for every home and business.",
       "Our services come with a warranty for your peace of mind.",
-      "Quick Response",
+      "Fast and efficient duct cleaning services to improve air quality and system performance, with a quick response to your needs.",
       "We focus on thoroughness and attention to detail to ensure a clean and healthy indoor environment.",
-      "Emergancy service",
+      "24/7 emergency duct cleaning services to ensure your system is clean and running smoothly, anytime you need us",
       "We use safe and environmentally friendly cleaning solutions.",
     ],
   };
   const homeContent = {
-    heading: "Expert Duct Cleaning Services in Dubai",
+    heading: "Expert Duct Cleaning Services in Dubai ",
     description:
       "Maintaining clean air ducts is essential in Dubai's dusty environment. Dust, mold, and allergens can clog your ducts, impacting the air you breathe. Our skilled technicians offer professional cleaning services to ensure healthier air for your family.",
     bulletPoints: [

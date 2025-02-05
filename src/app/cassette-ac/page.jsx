@@ -7,7 +7,7 @@ import {
   faCheckCircle,
   faShieldAlt,
   faClock,
-} from "@fortawesome/free-solid-svg-icons"; // Import icons
+} from "@fortawesome/free-solid-svg-icons";
 import DWhyChooseUs from "@/components/Dynamic-components/DWhyChooseUs";
 import ContactUs from "@/components/ContactUs";
 import Testimonial from "@/components/Testimonial";
@@ -119,7 +119,7 @@ const page = () => {
     iconDescriptions: [
       "Our highly trained specialists are equipped to work on all types of cassette AC systems with utmost precision.",
       "We offer clear, competitive pricing with no hidden fees or extra charges.  ",
-      "Citywide Service",
+      "Providing fast and reliable AC services across the entire city.",
       "We take pride in our attention to detail, ensuring your cassette AC operates at its highest efficiency.",
       "Our prompt and dependable emergency services ensure your cassette AC is up and running in no time.",
       "Our work is backed by a warranty, giving you peace of mind in our commitment to quality.",

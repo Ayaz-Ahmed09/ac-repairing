@@ -66,9 +66,9 @@ const page = () => {
   ];
 
   const aboutData = {
-    title: "About Our Thermostat Services",
+    title: "Essential Thermostat Services for Optimal AC Performance",
     description1:
-      "We are experts in Portable AC services, offering installation, maintenance, and repair solutions.",
+      "Installing a thermostat improves temperature control, ensuring efficient operation of your central AC system and reducing energy costs. It helps maintain a consistent indoor climate, prevents overworking the AC, and extends its lifespan. Modern smart thermostats offer additional benefits like remote control and scheduling, further enhancing energy efficiency. Overall, a thermostat installation promotes comfort, saves money, and boosts the longevity of your cooling system.",
     description2:
       "Our skilled team ensures high-quality service, timely completion, and customer satisfaction.",
     icons: [
@@ -79,36 +79,37 @@ const page = () => {
     image: "/thermo/smart-thermostate-about-us.jpg",
   };
   const whyChooseUsData = {
-    heading: "Why Choose Us?",
+    heading: " Why Choose Us For Thermostat Installation Services?",
     description:
-      "We offer the best quality services, with customer satisfaction being our top priority.",
+      "Ensure optimal control of your central AC system with our expert thermostat installation services. We only use top-quality, genuine parts to ensure flawless installation and long-lasting results. Our professional team is dedicated to providing reliable and efficient cooling solutions for your space.",
     iconDescriptions: [
-      "Quality Workmanship",
-      "Affordable Pricing",
-      "Citywide Service",
-      "Customer-Focused",
-      "Quick Response",
-      "Expert Technicians",
-      "Emergancy service",
-      "Reliable Service",
+      "Our technicians are fully trained to install all types of thermostats with precision and care.",
+      "Enjoy affordable rates with no hidden fees, making our services accessible to everyone.",
+      "Providing fast and reliable AC services across the entire city.",
+      "We tailor our solutions to meet the specific needs of your home or office, ensuring the best possible comfort",
+      "Fast and efficient service to address your needs without delay.",
+      "We focus on the details to guarantee proper installation and enhanced performance of your thermostat.",
+      " We provide fast, reliable emergency installation services to ensure your thermostat works properly at all times.",
+      "We use only high-quality thermostats that are compatible with your central AC system for maximum efficiency.",
     ],
   };
   const homeContent = {
-    heading: "ThermoState AC Repair & Installation Service in Dubai",
+    heading: "Thermostat Installation Services in Dubai",
     description:
-      "For the ultimate in comfort and style, a well-functioning Thermostat system is a must in Dubai’s heat. Whether you need repairs or a new installation, our skilled technicians are here to provide fast, reliable service, ensuring your space remains cool throughout the year.",
+      "Looking for reliable thermostat installation in Dubai? Experience ultimate comfort in your Dubai home with a professionally installed thermostat.  Our team will handle the installation quickly and efficiently, so you can enjoy the perfect indoor climate.",
     bulletPoints: [
       "Licensed Company",
       "Affordable Pricing",
       "Quality Work",
-      "24/7 Thermostat Service",
+      "24-Hour Thermostat Installation Service",
     ],
   };
   return (
     <div className="overflow-x-hidden">
+      <title> Professional Thermostat Installation Service in Dubai</title>
       {/* Hero Section */}
       <DHeroSection
-        image="/thermo/ac banners smart thermostate.png"
+        image="/thermo/thermo banner.png"
         heading="Best Thermostat Services"
         subheading="We provide the best solutions for your needs."
         buttonText="Contact Us"

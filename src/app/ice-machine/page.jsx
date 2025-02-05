@@ -99,10 +99,10 @@ const page = () => {
     iconDescriptions: [
       "Our skilled technicians are trained to handle all types of ice machines with precision.",
       "Transparent, competitive rates with no hidden charges.",
-      "Citywide Service",
+      "Providing fast and reliable AC services across the entire city.",
       "Tailored solutions to meet the specific needs of your business.",
-      "Quick Response",
-      "Expert Technicians",
+      "Need fast and reliable ice machine service? Our team offers quick response times to ensure your equipment is up and running in no time.",
+      "We focus on accuracy and detail to ensure your ice machine operates at peak performance.",
       "Fast and reliable emergency service to get your ice machine back up and running quickly.",
       "Our services come with a warranty for your peace of mind.",
     ],

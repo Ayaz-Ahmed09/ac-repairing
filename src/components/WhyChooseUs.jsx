@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
   return (
     <section className=" py-16 px-4 md:px-10 bg-black text-white">
       <div className="container mx-auto text-center">
-        <h3 className="text-3xl sm:text-4xl font-bold mb-8 text-red-500">
+        <h3 className="text-3xl sm:text-4xl font-bold mb-8 text-red-600">
           Why Choose Us For Air Condition Services
         </h3>
         <p className="text-lg sm:text-xl mb-12">
@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
           <div className="flex flex-col items-center text-center ">
             <FontAwesomeIcon
               icon={faTools}
-              className="text-red-500 text-4xl mb-4"
+              className="text-red-600 text-4xl mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">Professional Service</h3>
             <p>
@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
           <div className="flex flex-col items-center text-center ">
             <FontAwesomeIcon
               icon={faThumbsUp}
-              className="text-red-500 text-4xl mb-4"
+              className="text-red-600 text-4xl mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">
               Satisfaction Guaranteed
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
           <div className="flex flex-col items-center text-center ">
             <FontAwesomeIcon
               icon={faShieldAlt}
-              className="text-red-500 text-4xl mb-4"
+              className="text-red-600 text-4xl mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">Quality Parts</h3>
             <p>
@@ -71,7 +71,7 @@ const WhyChooseUs = () => {
           <div className="flex flex-col items-center text-center ">
             <FontAwesomeIcon
               icon={faHeadset}
-              className="text-red-500 text-4xl mb-4"
+              className="text-red-600 text-4xl mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">
               24/7 Customer Support
@@ -83,7 +83,7 @@ const WhyChooseUs = () => {
           <div className="flex flex-col items-center text-center">
             <FontAwesomeIcon
               icon={faHandshake}
-              className="text-red-500 text-4xl mb-4"
+              className="text-red-600 text-4xl mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">Customer-Focused</h3>
             <p>
@@ -96,7 +96,7 @@ const WhyChooseUs = () => {
           <div className="flex flex-col items-center text-center">
             <FontAwesomeIcon
               icon={faMapMarkerAlt}
-              className="text-red-500 text-4xl mb-4"
+              className="text-red-600 text-4xl mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">Citywide Service</h3>
             <p>
@@ -109,7 +109,7 @@ const WhyChooseUs = () => {
           <div className="flex flex-col items-center text-center">
             <FontAwesomeIcon
               icon={faDollarSign}
-              className="text-red-500 text-4xl mb-4"
+              className="text-red-600 text-4xl mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">Affordable Pricing</h3>
             <p>Transparent, competitive rates with no hidden fees</p>
@@ -119,7 +119,7 @@ const WhyChooseUs = () => {
           <div className="flex flex-col items-center text-center">
             <FontAwesomeIcon
               icon={faCheckCircle}
-              className="text-red-500 text-4xl mb-4"
+              className="text-red-600 text-4xl mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">Customer-Centered</h3>
             <p>

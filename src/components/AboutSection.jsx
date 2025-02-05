@@ -102,11 +102,11 @@ const AboutSection = () => {
       ></div>
 
       {/* Left Side (Text) */}
-      <div className="w-full lg:w-1/2 z-10 px-4 text-center lg:text-left opacity-100 translate-x-0 transition-all duration-1000 ease-in-out">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-white">
+      <div className="w-full lg:w-1/2 z-10 px-4 text-center lg:text-center opacity-100 translate-x-0 transition-all duration-1000 ease-in-out">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-red-600">
           Top-Notch Air Cond Maintenance & Installation Services
         </h2>
-        <p className="text-base sm:text-lg lg:text-xl text-white mb-4 leading-relaxed">
+        <p className="text-base sm:text-lg lg:p-4 lg:text-xl text-white mb-4 leading-relaxed">
           We understand how frustrating it can be when your air conditioner
           isn’t working properly. That’s why we focus on delivering quality
           workmanship and using top-quality parts for both air conditioner

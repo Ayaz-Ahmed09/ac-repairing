@@ -80,7 +80,7 @@ const page = () => {
     iconDescriptions: [
       "Our skilled technicians are trained to service all window AC brands with precision and care",
       "Transparent and competitive rates with no hidden fees.",
-      "Citywide Service",
+      "Providing fast and reliable AC services across the entire city.",
       "We customize our services to meet your comfort and satisfaction.",
       "Our 24/7 emergency service ensures your AC gets fixed fast",
       "We pay attention to every detail to keep your AC running at its best",

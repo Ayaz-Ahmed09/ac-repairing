@@ -116,18 +116,18 @@ const page = () => {
     image: "/chiller-ac/chiller ac about us.jpg", // Path to image
   };
   const whyChooseUsData = {
-    heading: "Why Choose Us?",
+    heading: " Why Choose Us For Chiller AC Services?",
     description:
-      "We offer the best quality services, with customer satisfaction being our top priority.",
+      "Keep your workspace comfortable and productive with our expert chiller AC repair and installation services. We use high-quality, genuine parts to guarantee smooth performance, and with a warranty on all services, you can rely on us for effective and efficient cooling",
     iconDescriptions: [
-      "Quality Workmanship",
-      "Affordable Pricing",
-      "Citywide Service",
-      "Customer-Focused",
-      "Quick Response",
-      "Expert Technicians",
-      "Emergancy service",
-      "Reliable Service",
+      "Our highly trained technicians are skilled in servicing all types of chiller AC systems with precision and care.",
+      "We offer clear, competitive pricing with no hidden costs or surprises.",
+      "Providing fast and reliable AC services across the entire city.",
+      "We provide customized solutions tailored to meet your comfort and business needs.",
+      "Our work is backed by a warranty, giving you confidence in the quality of our services.",
+      " We pay close attention to detail, ensuring your chiller AC operates at its highest efficiency",
+      "Our quick and dependable emergency services ensure your chiller AC is up and running without delay.",
+      "We only use durable, top-quality parts specifically designed for chiller AC systems.",
     ],
   };
   return (

@@ -10,22 +10,19 @@ const Cards = ({
   callNowLink,
   hoverImg,
 }) => {
+  // console.log("viewDetailLink:", viewDetailLink);
+
   const handleCallNow = () => {
     window.location.href = `tel:${callNowLink}`;
   };
-  // const [img, setImg] = useState(image);
+
   return (
-    <div
-      // onMouseEnter={() => setImg(hoverImg)}
-      // onMouseLeave={() => setImg(image)}
-      className="relative font-quicksand flex flex-col lg:flex-row p-6 bg-black text-white rounded-lg shadow-lg overflow-hidden max-w-full mx-auto h-full group"
-    >
+    <div className="relative font-quicksand flex flex-col lg:flex-row p-6 bg-black text-white rounded-lg shadow-lg overflow-hidden max-w-full mx-auto h-full group">
       {/* Image Section */}
       <img
-        // src={img}
         src={image}
         alt={title}
-        // loading="eager"
+        loading="eager"
         className="w-full h-auto object-cover rounded-lg mb-4 lg:mb-0 lg:w-1/3 lg:mr-6"
       />
 
@@ -38,9 +35,8 @@ const Cards = ({
           {/* Conditional Rendering for View Details */}
           {viewDetailLink && (
             <Link
-              href={viewDetailLink}
-              // target="_blank"
-              // rel="noopener noreferrer"
+              href={viewDetailLink || "/"}
+              onClick={() => console.log("Clicked Link:", viewDetailLink)} // Debugging Click
               className="text-red-600 hover:underline hover:text-white w-full sm:w-auto text-center sm:text-left"
             >
               View Details

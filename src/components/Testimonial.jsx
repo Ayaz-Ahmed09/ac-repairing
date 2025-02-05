@@ -15,7 +15,7 @@ const Testimonial = ({ page }) => {
   return (
     <section className="py-16 px-4 text-white bg-gradient-to-tr from-red-300/20 via-black/20 to-red-600/20">
       <h3 className="text-3xl font-bold text-center text-red-600 mb-8">
-        What Our Customers Say
+        What <span className="text-yellow-400/80">Our Customers</span> Say
       </h3>
 
       {testimonialsForPage.length === 0 ? (
